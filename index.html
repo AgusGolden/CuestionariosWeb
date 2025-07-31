@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cuestionarios</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <a href="/index.html" class="activo">Inicio</a>
+            <a href="/html/cuestionarios.html">Cuestionarios</a>
+            <a href="/html/practicar.html">Practicar</a>
+            <a href="/html/añadir.html">Añadir</a>
+            <a href="/html/modificar.html">Modificar</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Bienvenido al Gestor de Exámenes</h1>
+            <p>Usa el menú superior para navegar entre las secciones.</p>
+        </section>
+
+        <!-- Contenedor para listar los cuestionarios -->
+        <section id="lista-cuestionarios"></section>
+
+        <section class="export-import">
+            <h3>Backup de Datos</h3>
+            <div class="btn-container">
+            <button id="btn-exportar">Exportar a archivo</button>
+            </div>
+            <input type="file" id="input-importar" />
+            <div class="btn-container">
+            <button id="importarDatos">Importar desde archivo</button>
+            </div>
+        </section>
+    </main>
+
+
+    <script type="module" src="/js/script.js"></script>
+    <script type="module" src="/js/storage.js"></script>
+    <script type="module" src="/js/exportar.js"></script>
+    <script type="module" src="/js/importar.js"></script>
+
+</body>
+</html>

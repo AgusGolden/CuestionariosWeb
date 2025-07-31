@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cuestionarios</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/cuestionarios.css" />
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="./cuestionarios.html" class="activo">Cuestionarios</a>
+        <a href="./practicar.html">Practicar</a>
+        <a href="./añadir.html">Añadir</a>
+        <a href="./modificar.html">Modificar</a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <h1>Cuestionarios</h1>
+
+        <div class="select-contenedor">
+            <label for="lista-cuestionarios">Seleccionar cuestionario:</label>
+            <select id="lista-cuestionarios">
+            <option value="">-- Seleccionar --</option>
+            </select>
+
+        </div>
+
+        <div id="contenedor-preguntas"></div>
+
+    </main>
+
+
+    <script type="module" src="/js/cuestionarios.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+/* estilo general del sitio web. los que correspondan tener su css propio, crear un nuevo archiv en esta carpeta. */
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background: #f9f9f9;
+  color: #222;
+}
+
+header {
+  background-color: #11215A;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.activo {
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+main {
+  background: white;
+  padding: 1.5rem;
+  max-width: 700px;
+  margin: 1rem auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-top: 0.7rem;
+  font-weight: 600;
+}
+
+form input[type="text"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1em 0;
+}
+
+.btn-rojo {
+  background-color: #FB3640;
+  color: white;
+}
+
+button {
+    padding: .6em 1em;
+    background-color: #11215A;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+legend {
+  font-weight: 700;
+}
+
+.pregunta {
+  margin-bottom: 1.2rem;
+}
+
+.opcion {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.3rem;
+}
+
+.opcion input[type="text"] {
+  flex-grow: 1;
+}
+
+.opcion label {
+  font-weight: normal;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.oculto {
+  display: none;
+}
+
+.opciones-container {
+  display: none;
+  margin-top: 10px;
+}
+
+.opciones-container.visible {
+  display: block;
+}
+
+
+/* Sección de exportación/importación */
+.export-import {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.export-import h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #11215A;
+}
+
+.export-import .btn-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.export-import button {
+  background-color: #11215A;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.export-import button:hover {
+  background-color: #0d1b4a;
+  cursor: pointer;
+}

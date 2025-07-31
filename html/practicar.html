@@ -1,0 +1,56 @@
+<!-- agarrar un cuestionario del listado, que vayan saliendo las preguntas y si son multiple choice poner cual/es son correctas o si es desarrollar, escribirlo. debe haber un boton para mostrar y ocultar la respuesta y uno para pasar a la siguiente pregunta. el orden debe ser aleatorio. -->
+ 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Practicar Cuestionario</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/practicar.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="./cuestionarios.html">Cuestionarios</a>
+            <a href="./practicar.html" class="activo">Practicar</a>
+            <a href="./añadir.html">Añadir</a>
+            <a href="./modificar.html">Modificar</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Practicar Cuestionarios</h1>
+
+        <section id="seleccionar-cuestionario">
+            <label for="lista-cuestionarios">Seleccione un cuestionario:</label>
+            <select id="lista-cuestionarios">
+                <option value="">-- Elegir --</option>
+            </select>
+            <div class="btn-container">
+                <button id="btn-iniciar" disabled>Iniciar práctica</button>
+            </div>
+        </section>
+
+        <section id="practica" class="oculto">
+            <div id="contenedor-pregunta"></div>
+
+           <div class="acciones">
+                <button id="btn-mostrar-respuesta">Mostrar Respuesta</button>
+                <button id="btn-siguiente">Siguiente Pregunta</button>
+            </div>
+
+        </section>
+
+        <section id="resultado" class="oculto">
+            <h2>Resultado</h2>
+            <p id="puntaje"></p>
+            <button id="btn-reiniciar">Practicar otro cuestionario</button>
+        </section>
+    </main>
+
+    <script src="../js/practicar.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!-- debe crear un cuestionario nuevo. contiene un nombre, preguntas y respuestas ya sean multiple choice (con 1 o mas orespuestas validas) o de desarrollar la respuesta. La info debe de persistir y se debe mostrar posteriormente en cuestionarios.html y demás secciones. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Añadir Cuestionario</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="./cuestionarios.html">Cuestionarios</a>
+      <a href="./practicar.html">Practicar</a>
+      <a href="./añadir.html" class="activo">Añadir</a>
+      <a href="./modificar.html">Modificar</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Añadir Nuevo Cuestionario</h1>
+
+    <form id="form-cuestionario">
+        <label for="nombre-cuestionario">Nombre del Cuestionario:</label>
+        <input type="text" id="nombre-cuestionario" name="nombre-cuestionario" required />
+
+        <section id="preguntas-container">
+            <h3>Preguntas</h3>
+            <!-- se agregarán las preguntas dinámicamente -->
+        </section>
+
+        <div class="btn-container">
+            <button type="button" id="btn-agregar-pregunta">Agregar Pregunta</button>
+            <button type="submit">Guardar Cuestionario</button>
+        </div>
+
+    </form>
+  </main>
+
+  <script src="../js/añadir.js"></script>
+</body>
+</html>
