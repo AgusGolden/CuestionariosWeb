@@ -139,8 +139,8 @@ function toggleMostrarRespuesta() {
       const correctas = pregunta.opciones
         .map((op, i) => op.esCorrecta ? pregunta.opciones[i].texto : null)
         .filter(Boolean)
-        .join(', ');
-      resp.innerHTML = `<strong>Correctas:</strong> ${correctas}`;
+        .join('<br>');
+      resp.innerHTML = `<strong>Correctas:</strong><br>${correctas}`;
     } else if (pregunta.tipo === 'desarrollar') {
       resp.innerHTML = `<strong>Respuesta esperada:</strong> ${pregunta.respuesta || 'No disponible'}`;
     }

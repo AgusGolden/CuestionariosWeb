@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Modificar Cuestionario</title>
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/modificar.css">
@@ -16,16 +17,22 @@
       <a href="./modificar.html" class="activo">Modificar</a>
     </nav>
   </header>
-  <main>
-    <h1>Modificar Cuestionario</h1>
-    <div class="select-contenedor">
-      <label for="cuestionarios-select">Selecciona un cuestionario:</label>
-      <select id="cuestionarios-select">
-        <option value="">-- Seleccionar --</option>
-      </select>
-    </div>
 
-    <div id="detalles-cuestionario" class="oculto">
+  <main>
+
+    <h1>Modificar Cuestionario</h1>
+
+    <section id="seleccionar-cuestionario">
+
+        <label for="cuestionarios-select">Selecciona un cuestionario:</label>
+        <select id="cuestionarios-select">
+          <option value="">-- Seleccionar --</option>
+        </select>
+
+    </section>
+
+    <section id="contenedor-pregunta" class="oculto">
+
         <label>Nombre del cuestionario:
             <input type="text" id="nombre-cuestionario-editar">
         </label>
@@ -37,8 +44,12 @@
             <button id="btn-guardar-cuestionario">Guardar Cuestionario</button>
             <button id="btn-eliminar-cuestionario" class="btn-rojo">Eliminar Cuestionario</button>
         </div>
-    </div>
+        
+    </section>
+
   </main>
+
   <script type="module" src="../js/modificar.js"></script>
+
 </body>
 </html>

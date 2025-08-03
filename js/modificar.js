@@ -9,6 +9,7 @@ function inicializar() {
   cuestionarios = obtenerCuestionarios();
   llenarSelect();
   configurarEventos();
+  ocultarDetalle();
 }
 
 function llenarSelect() {
@@ -23,18 +24,24 @@ function llenarSelect() {
 }
 
 function configurarEventos() {
-  const sel = document.getElementById('cuestionarios-select');
-  sel.addEventListener('change', () => {
-    const id = sel.value;
-    cuestionario = cuestionarios.find(q => q.idCuestionario == id);
-    if (cuestionario) cargarDetalle();
-    else ocultarDetalle();
-  });
+    const sel = document.getElementById('cuestionarios-select');
+    sel.addEventListener('change', () => {
+    const id = Number(sel.value);
+    console.log('Select cambio, id seleccionado:', id);
+    cuestionario = cuestionarios.find(q => q.idCuestionario === id);
+    if (!cuestionario) {
+        console.warn('No se encontró cuestionario con id:', id);
+        ocultarDetalle();
+    } else {
+        console.log('Cuestionario encontrado:', cuestionario);
+        cargarDetalle();
+    }
+    });
 
   document.getElementById('btn-eliminar-cuestionario').addEventListener('click', () => {
     if (!cuestionario) return;
     if (confirm(`Eliminar "${cuestionario.nombre}"?`)) {
-      cuestionarios = cuestionarios.filter(q => q.idCuestionario != cuestionario.idCuestionario);
+      cuestionarios = cuestionarios.filter(q => q.idCuestionario !== cuestionario.idCuestionario);
       guardarCuestionarios(cuestionarios);
       cuestionario = null;
       llenarSelect();
@@ -51,12 +58,14 @@ function configurarEventos() {
 }
 
 function ocultarDetalle() {
-  document.getElementById('detalles-cuestionario').classList.add('oculto'); // Oculta contenedor de detalle
+  const cont = document.getElementById('contenedor-pregunta');
+  if (cont && !cont.classList.contains('oculto')) cont.classList.add('oculto');
 }
 
 function cargarDetalle() {
-  document.getElementById('detalles-cuestionario').classList.remove('oculto'); // Muestra contenedor detalle
-  document.getElementById('nombre-cuestionario-editar').value = cuestionario.nombre;
+  const cont = document.getElementById('contenedor-pregunta');
+  if (cont && cont.classList.contains('oculto')) cont.classList.remove('oculto');
+  document.getElementById('nombre-cuestionario-editar').value = cuestionario.nombre || '';
   renderPreguntas();
 }
 
@@ -65,8 +74,13 @@ function guardarEstadoTemporal() {
   const cont = document.getElementById('lista-preguntas');
   const preguntasEditDivs = cont.querySelectorAll('.pregunta-edit');
   preguntasEditDivs.forEach(div => {
-    const idx = div.dataset.idx;
+    const idx = Number(div.dataset.idx);
     const p = cuestionario.preguntas[idx];
+    if (!p) {
+      console.warn(`Pregunta con índice ${idx} no encontrada`);
+      return;
+    }
+
     // Guardar texto de la pregunta desde textarea
     const textareaPregunta = div.querySelector('textarea');
     p.texto = textareaPregunta.value.trim();
@@ -75,10 +89,14 @@ function guardarEstadoTemporal() {
       const rows = div.querySelectorAll('.opcion-edit');
       rows.forEach(r => {
         const checkbox = r.querySelector('input[type="checkbox"]');
-        const j = checkbox.dataset.idx;
-        p.opciones[j].esCorrecta = checkbox.checked;
-        const inputTexto = r.querySelector('input[type="text"]');
-        p.opciones[j].texto = inputTexto.value.trim();
+        const j = Number(checkbox.dataset.idx);
+        if (p.opciones[j]) {
+          p.opciones[j].esCorrecta = checkbox.checked;
+          const inputTexto = r.querySelector('input[type="text"]');
+          p.opciones[j].texto = inputTexto.value.trim();
+        } else {
+          console.warn(`Índice de opción fuera de rango: ${j}`, p.opciones);
+        }
       });
     } else {
       // Para preguntas de desarrollar, guarda la respuesta del segundo textarea
@@ -87,6 +105,7 @@ function guardarEstadoTemporal() {
     }
   });
 }
+
 
 function renderPreguntas() {
   if (!cuestionario) return;
@@ -105,7 +124,7 @@ function renderPreguntas() {
     fieldset.appendChild(legend);
 
     const text = document.createElement('textarea');
-    text.value = p.texto;
+    text.value = p.texto || '';
     fieldset.appendChild(text);
 
     if (p.tipo === 'multiple') {
@@ -113,17 +132,16 @@ function renderPreguntas() {
         const row = document.createElement('div');
         row.className = 'opcion-edit';
 
-        // Checkbox de opción correcta
         const chk = document.createElement('input');
         chk.type = 'checkbox';
         chk.checked = opt.esCorrecta;
-        chk.dataset.idx = j;
+        chk.dataset.idx = j;  // <-- importante que sea el índice actualizado
         row.appendChild(chk);
 
-        // Texto de la opción
+        // Texto opción
         const inp = document.createElement('input');
         inp.type = 'text';
-        inp.value = opt.texto;
+        inp.value = opt.texto || '';
         row.appendChild(inp);
 
         // Botón eliminar opción
@@ -133,6 +151,7 @@ function renderPreguntas() {
         btnEliminarOpcion.className = 'btn-rojo btn-eliminar-opcion';
         btnEliminarOpcion.style.marginLeft = '10px';
         btnEliminarOpcion.addEventListener('click', () => {
+          guardarEstadoTemporal();
           p.opciones.splice(j, 1);
           renderPreguntas();
         });
@@ -141,13 +160,12 @@ function renderPreguntas() {
         fieldset.appendChild(row);
       });
 
-      // Contenedor común para botones Agregar opción y Eliminar pregunta
       const btnContainer = document.createElement('div');
       btnContainer.className = 'btn-container';
 
-      // Botón Agregar opción
       const btnAdd = document.createElement('button');
       btnAdd.textContent = 'Agregar opción';
+      btnAdd.type = 'button';
       btnAdd.addEventListener('click', () => {
         guardarEstadoTemporal();
         p.opciones.push({ texto: '', esCorrecta: false });
@@ -155,9 +173,9 @@ function renderPreguntas() {
       });
       btnContainer.appendChild(btnAdd);
 
-      // Botón Eliminar pregunta
       const btnEliminar = document.createElement('button');
       btnEliminar.textContent = 'Eliminar pregunta';
+      btnEliminar.type = 'button';
       btnEliminar.className = 'btn-rojo';
       btnEliminar.addEventListener('click', () => {
         cuestionario.preguntas.splice(idx, 1);
@@ -166,19 +184,18 @@ function renderPreguntas() {
       btnContainer.appendChild(btnEliminar);
 
       fieldset.appendChild(btnContainer);
-
-    } else {
+    } else if (p.tipo === 'desarrollar') {
       const resp = document.createElement('textarea');
       resp.value = p.respuesta || '';
       resp.placeholder = 'Respuesta esperada...';
       fieldset.appendChild(resp);
 
-      // Para preguntas de desarrollar, solo botón eliminar en su propio contenedor
       const btnEliminarContainer = document.createElement('div');
       btnEliminarContainer.className = 'btn-container';
 
       const btnEliminar = document.createElement('button');
       btnEliminar.textContent = 'Eliminar pregunta';
+      btnEliminar.type = 'button';
       btnEliminar.className = 'btn-rojo';
       btnEliminar.addEventListener('click', () => {
         cuestionario.preguntas.splice(idx, 1);
@@ -215,6 +232,7 @@ function mostrarSelectorTipoPregunta() {
   const btnAceptar = document.createElement('button');
   btnAceptar.textContent = 'Agregar';
   btnAceptar.disabled = true;
+  btnAceptar.type = 'button';
 
   btnAceptar.addEventListener('click', () => {
     const tipo = select.value;
@@ -239,6 +257,9 @@ function mostrarSelectorTipoPregunta() {
     backgroundColor: 'white',
     border: '1px solid #ccc',
     zIndex: 1000,
+    borderRadius: '6px',
+    boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
+    minWidth: '280px',
   });
 
   document.body.appendChild(contenedor);
@@ -262,11 +283,12 @@ function agregarPregunta(tipo) {
 
 function guardarEdiciones() {
   if (!cuestionario) return;
-  // Guardar datos actuales para no perder nada
   guardarEstadoTemporal();
+  const nombreInput = document.getElementById('nombre-cuestionario-editar');
+  if (nombreInput) cuestionario.nombre = nombreInput.value.trim();
 
-  cuestionario.nombre = document.getElementById('nombre-cuestionario-editar').value.trim();
   guardarCuestionarios(cuestionarios);
+  // console.log('Cuestionarios guardados:', cuestionarios);
 }
 
 export {};
