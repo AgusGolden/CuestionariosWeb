@@ -1,7 +1,7 @@
 [
   {
     "idCuestionario": 1754532003001,
-    "nombre": "Cuestionario Material de la Clase 01",
+    "nombre": "1er Parcial (Clases 1 - 7)",
     "fechaCreacion": "2025-08-03T12:00:00.000Z",
     "preguntas": [
       {
@@ -253,20 +253,7 @@
             "esCorrecta": true
           }
         ]
-      }
-    ]
-  },
-
-
-
-
-
-
-  {
-    "idCuestionario": 1754235446324,
-    "nombre": "Cuestionario Clase 01",
-    "fechaCreacion": "2025-08-03T15:37:26.324Z",
-    "preguntas": [
+      },
       {
         "tipo": "multiple",
         "texto": "La arquitectura es necesaria para construir aplicaciones con características comunes.",
@@ -918,19 +905,7 @@
             "esCorrecta": false
           }
         ]
-      }
-    ]
-  },
-
-
-
-
-
-  {
-    "idCuestionario": 1754538943000,
-    "nombre": "Cuestionario Material de la Clase 02",
-    "fechaCreacion": "2025-08-03T18:15:43.000Z",
-    "preguntas": [
+      },
         {
         "tipo": "multiple",
         "texto": "Las etiquetas HTML no son semánticas.",
@@ -1110,20 +1085,8 @@
             { "texto": "Verdadero", "esCorrecta": true },
             { "texto": "Falso", "esCorrecta": false }
         ]
-        }
-    ]
-    },
-
-
-
-
-
-    {
-        "idCuestionario": 1754539512000,
-        "nombre": "Cuestionario Clase 02",
-        "fechaCreacion": "2025-08-03T15:45:12.000Z",
-        "preguntas": [
-            {
+        },
+        {
             "tipo": "multiple",
             "texto": "HTML es un lenguaje de programación.",
             "opciones": [
@@ -1633,19 +1596,7 @@
                 "esCorrecta": false
                 }
             ]
-            }
-        ] 
-    },
-
-
-
-
-
-    {
-        "idCuestionario": 1754255823137,
-        "nombre": "Cuestionario Material de la Clase 3",
-        "fechaCreacion": "2025-08-03T21:17:03.137963Z",
-        "preguntas": [
+            },
             {
             "tipo": "multiple",
             "texto": "En HTML5, la distinción entre elementos de bloque y en línea se mantiene igual que en HTML 4.01",
@@ -1815,20 +1766,8 @@
                 { "texto": "Verdadero", "esCorrecta": false },
                 { "texto": "Falso", "esCorrecta": true }
             ]
-            }
-        ]
-        },
-
-
-
-
-
-        {
-            "idCuestionario": 1754538305000,
-            "nombre": "Cuestionario Clase 03",
-            "fechaCreacion": "2025-08-03T15:45:05.000Z",
-            "preguntas": [
-                {
+            },
+            {
                 "tipo": "multiple",
                 "texto": "HTML consiste en una serie de elementos que encierran diferentes partes de un contenido.",
                 "opciones": [
@@ -2083,24 +2022,856 @@
                 "texto": "La organización … es la que se encarga de definir las especificaciones de HTML, CSS y otras tecnologías web.",
                 "respuesta": "W3C",
                 "opciones": []
-                }
-            ]        
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+                },
+{
+      "tipo": "desarrollar",
+      "texto": "¿Cuántos tipos de selectores clasificados existen en CSS?",
+      "respuesta": "4",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué otro nombre recibe el layout en el contexto de desarrollo web?",
+      "opciones": [
+        { "texto": "Plantilla", "esCorrecta": true },
+        { "texto": "Selector", "esCorrecta": false },
+        { "texto": "Protocolo", "esCorrecta": false },
+        { "texto": "Script", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué establece el concepto de \"estilos en cascada\"?",
+      "opciones": [
+        { "texto": "Los estilos no siguen un orden específico.", "esCorrecta": false },
+        { "texto": "Los estilos se aplican de arriba hacia abajo.", "esCorrecta": true },
+        { "texto": "Los estilos se aplican solo a texto.", "esCorrecta": false },
+        { "texto": "Los estilos se aplican de abajo hacia arriba.", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué se presenta al cliente para su aprobación, modificación o rechazo?",
+      "opciones": [
+        { "texto": "La hoja de estilos CSS", "esCorrecta": false },
+        { "texto": "El contenido multimedia", "esCorrecta": false },
+        { "texto": "El layout", "esCorrecta": true },
+        { "texto": "El código fuente", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El layout es el producto inicial de una página o sitio web.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los selectores CSS no dependen del buen manejo para su eficiencia.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿A qué se refiere el término \"selector CSS\"?",
+      "opciones": [
+        { "texto": "Una función de JavaScript", "esCorrecta": false },
+        { "texto": "El identificador de elementos del DOM en la hoja de estilos", "esCorrecta": true },
+        { "texto": "Una regla de estilo específica", "esCorrecta": false },
+        { "texto": "Un documento HTML", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué representa el layout en el desarrollo web?",
+      "opciones": [
+        { "texto": "La base de datos", "esCorrecta": false },
+        { "texto": "El código final", "esCorrecta": false },
+        { "texto": "El servidor web", "esCorrecta": false },
+        { "texto": "El diseño inicial", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Una plantilla de diseño no es necesaria para desarrollar un sitio web.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Solo existen tres tipos de selectores CSS.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los elementos en línea no pueden comenzar en cualquier parte de una línea.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué significan las siglas CSS?",
+      "opciones": [
+        { "texto": "Cascading Style Sheets", "esCorrecta": true },
+        { "texto": "Computer Style Sheets", "esCorrecta": false },
+        { "texto": "Colorful Style Sheets", "esCorrecta": false },
+        { "texto": "Creative Style System", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "CSS no se utiliza para aplicar estilos visuales a las páginas web.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué se puede usar como base para una página web?",
+      "opciones": [
+        { "texto": "Un atributo HTML", "esCorrecta": false },
+        { "texto": "Un layout", "esCorrecta": true },
+        { "texto": "Un selector CSS", "esCorrecta": false },
+        { "texto": "Un documento XML", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los elementos de bloque siempre comienzan en una nueva línea.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El layout es un término que no tiene equivalente en español.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué palabra se usa para describir la distribución de elementos en un diseño?",
+      "opciones": [
+        { "texto": "Sketch", "esCorrecta": false },
+        { "texto": "Layout", "esCorrecta": true },
+        { "texto": "Blueprint", "esCorrecta": false },
+        { "texto": "Map", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué elementos comienzan en una nueva línea por defecto?",
+      "opciones": [
+        { "texto": "Elementos en línea", "esCorrecta": false },
+        { "texto": "Selectores CSS", "esCorrecta": false },
+        { "texto": "Atributos HTML", "esCorrecta": false },
+        { "texto": "Elementos de bloque", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "CSS significa \"Cascading Style Sheets\".",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los selectores CSS solo se aplican a documentos HTML.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El layout se refiere únicamente a la distribución de elementos en una página impresa.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Para qué sirve CSS?",
+      "respuesta": "Sirve para definir la capa de presentación, es decir, la parte relacionada con el aspecto.",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "CSS define el contenido y en HTML se coloca todo lo relacionado al aspecto.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cuáles son las buenas prácticas en CSS?",
+      "respuesta": "Escribir el código en archivos independientes, que tendrán extensión .css.\nNo conviene colocar código CSS por tanto dentro de archivos HTML. Debemos evitar colocar estilos en etiquetas <style> dentro del propio código HTML.\nTampoco conviene colocar estilos en los atributos \"style\" de las etiquetas HTML.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Quién es el encargado de desarrollar y mantener CSS?",
+      "respuesta": "Es desarrollado por un grupo del W3C llamado CSS Working Group. Dicho grupo se compone por representantes de proveedores de navegadores y otras compañías interesadas, además de contar también con otras personas (expertos invitados) que son voces independientes no vinculadas a una organización.",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "CSS ha llegado al final de su desarrollo.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué tipo de lenguaje es CSS?",
+      "respuesta": "Es un lenguaje de hojas de estilo (permite aplicar estilos de manera selectiva a elementos en documentos HTML).",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "CSS es un leguaje basado en reglas.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Esta sintaxis es válida:\n\ncolor {\n p: red;\n}",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿En dónde escribimos...?\n\n&lt;link href=&quot;styles/style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;",
+      "respuesta": "Abrimos el archivo html y escribimos la línea en algún lugar entre las etiquetas <head> y </head>.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "Describa la anatomía de una regla CSS",
+      "respuesta": "Selector: el (los) elemento HTML a dar estilo (en este caso, los elementos <p> ).\nDeclaración: especifica a cuál de las propiedades del elemento se quiere dar estilo.\nPropiedades: selección de la propiedad del elemento HTML que queremos afectar con la regla.\nValor de la propiedad: a la derecha de la propiedad, después de los dos puntos (:), se escribe el valor de la propiedad",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Otras partes importantes de la sintaxis:",
+      "opciones": [
+        { "texto": "Cada regla debe estar encapsulada entre llaves {}", "esCorrecta": true },
+        { "texto": "Dentro de cada declaración se debe usar =", "esCorrecta": false },
+        { "texto": "Utilizamos coma (,) para separar una declaración de la siguiente", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cómo puedo seleccionar varios elementos y aplicar una sola regla?",
+      "respuesta": "Debemos separados por comas (,).",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Algunos de los selectores válidos de CSS son:",
+      "opciones": [
+        { "texto": "Selector de valor", "esCorrecta": false },
+        { "texto": "Selector de id", "esCorrecta": true },
+        { "texto": "Selector de atributo", "esCorrecta": true },
+        { "texto": "Selector de clase", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cuál es la analogía que se utiliza para la escritura de CSS?",
+      "respuesta": "Que trata mucho sobre cajas —ajustando su tamaño, color, posición, etc.—.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "El espacio alrededor del contenido es:",
+      "respuesta": "El padding (relleno).",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué regla debo escribir para aplicar un color de fondo a una página HTML?",
+      "respuesta": "\"background-color:\".\n\nEjemplo:\n\nhtml {\nbackground-color: #00539F;\n}",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los navegadores no aplican un estilo por defecto.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué propiedad debo utilizar si quiero aplicar una sombra al texto del elemento?",
+      "respuesta": "text-shadow",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El elemento <body> es un elemento block-level",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué tipo de elemento son las imágenes?",
+      "respuesta": "Son elementos inline, lo que quiere decir que no puedes aplicarles márgenes,\ndebes dar a la imagen un comportamiento de block-level usando display: block;.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cuál es la extensión de un archivo de CSS?",
+      "respuesta": "La extensión .css muestra que es un archivo CSS.",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Mobile Design First significa diseñar primero para dispositivos móviles y luego escalar para pantallas más grandes.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Las imágenes responsive requieren el uso del atributo srcset para optimizar su carga en diferentes dispositivos.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué valores de la propiedad display son especialmente útiles para diseños responsive?",
+      "opciones": [
+        { "texto": "Flex", "esCorrecta": true },
+        { "texto": "Table", "esCorrecta": false },
+        { "texto": "Grid", "esCorrecta": true },
+        { "texto": "Inline-block", "esCorrecta": false },
+        { "texto": "Block", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El Box Model de CSS incluye:",
+      "opciones": [
+        { "texto": "Límite de la sombra", "esCorrecta": false },
+        { "texto": "Límite del relleno (padding)", "esCorrecta": true },
+        { "texto": "Límite del margen", "esCorrecta": true },
+        { "texto": "Límite del contenido", "esCorrecta": true },
+        { "texto": "Límite del borde", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los media queries solo pueden ajustar el ancho de los elementos, pero no otros aspectos como tipografía o espaciado.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Cuáles son ventajas del Responsive Design?",
+      "opciones": [
+        { "texto": "Reduce el tiempo de carga de la página", "esCorrecta": false },
+        { "texto": "Elimina la necesidad de JavaScript", "esCorrecta": false },
+        { "texto": "Mejora del posicionamiento SEO", "esCorrecta": true },
+        { "texto": "Enriquece la experiencia del usuario", "esCorrecta": true },
+        { "texto": "Evita la duplicidad del contenido", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué técnicas se utilizan para implementar imágenes responsive?",
+      "opciones": [
+        { "texto": "Media queries", "esCorrecta": true },
+        { "texto": "Atributo srcset", "esCorrecta": true },
+        { "texto": "CSS sprites", "esCorrecta": false },
+        { "texto": "Object-fit property", "esCorrecta": true },
+        { "texto": "Picture element", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "La principal ventaja del Mobile Design First es puramente estética.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El Responsive Design ayuda a evitar la duplicidad de contenido en diferentes versiones de un sitio web.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los breakpoints o media queries son un módulo CSS3 que permite adaptar el contenido a las características del dispositivo.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El Responsive Design solo afecta a la apariencia visual de una página web, sin impacto en su rendimiento o posicionamiento.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "En el Box Model de CSS, el límite de contenido es la parte más externa de la caja.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué prácticas son recomendadas para el Mobile Design First?",
+      "opciones": [
+        { "texto": "Priorizar el contenido esencial", "esCorrecta": true },
+        { "texto": "Optimizar el rendimiento y tiempos de carga", "esCorrecta": true },
+        { "texto": "Diseñar únicamente para pantallas táctiles", "esCorrecta": false },
+        { "texto": "Implementar accesibilidad desde el inicio", "esCorrecta": true },
+        { "texto": "Usar menús hamburguesa para navegación", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Cuáles de las siguientes afirmaciones sobre Mobile Design First son correctas?",
+      "opciones": [
+        { "texto": "Se diseña primero para dispositivos móviles", "esCorrecta": true },
+        { "texto": "Siempre utiliza un diseño minimalista", "esCorrecta": false },
+        { "texto": "Prioriza la experiencia de usuario en dispositivos móviles", "esCorrecta": true },
+        { "texto": "Se escala posteriormente para pantallas más grandes", "esCorrecta": true },
+        { "texto": "Elimina la necesidad de crear breakpoints", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El enfoque \"Mobile Design First\" surgió como respuesta al crecimiento del uso de dispositivos móviles para navegar por Internet.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué características del dispositivo pueden detectarse mediante media queries?",
+      "opciones": [
+        { "texto": "Sistema operativo", "esCorrecta": false },
+        { "texto": "Ancho del viewport", "esCorrecta": true },
+        { "texto": "Resolución de pantalla", "esCorrecta": true },
+        { "texto": "Nivel de batería", "esCorrecta": false },
+        { "texto": "Orientación del dispositivo", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El Box Model está compuesto por tres áreas: contenido, padding y borde.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué propiedades CSS son especialmente importantes al implementar un diseño responsive?",
+      "opciones": [
+        { "texto": "Display: flex y grid", "esCorrecta": true },
+        { "texto": "Media queries", "esCorrecta": true },
+        { "texto": "Colores en formato hexadecimal", "esCorrecta": false },
+        { "texto": "Unidades relativas (%, em, rem, vh, vw)", "esCorrecta": true },
+        { "texto": "Posición absoluta", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El modelo box-sizing: border-box altera el Box Model estándar para incluir padding y border dentro del width y height definidos.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Al utilizar media queries, ¿qué enfoques son comunes para definir breakpoints?",
+      "opciones": [
+        { "texto": "Basados únicamente en la orientación del dispositivo", "esCorrecta": false },
+        { "texto": "Basados en rangos de tamaño comunes (móvil, tablet, escritorio)", "esCorrecta": true },
+        { "texto": "Basados en dispositivos específicos (iPhone, iPad, etc.)", "esCorrecta": false },
+        { "texto": "Basados en la resolución de pantalla", "esCorrecta": true },
+        { "texto": "Basados en el contenido y su legibilidad", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Hoja de estilo externa: Es el método menos común para adjuntar CSS a un documento HTML",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Dónde se escribe el contenido del CSS en estilo externo?",
+      "respuesta": "Está escrito en un archivo independiente con una extensión .css y que se vincula desde un elemento <link> de HTML",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿A qué se denomina hoja de estilo interna?",
+      "respuesta": "Es cuando no hay ningún archivo CSS externo.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cuándo es de utilidad recurrir al estilo interno?",
+      "respuesta": "Puede ser útil al trabajar con un sistema de administración de contenido donde no sea posible modificar los archivos CSS directamente.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cómo implemento los estilos en línea?",
+      "respuesta": "contenido dentro de un atributo de style.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "Los estilos en línea facilitan la lectura y comprensión del código.",
+      "respuesta": "Dificulta la lectura y la comprensión del código.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué reglas tiene CSS para controlar el caso de colisión?",
+      "respuesta": "Cascada y especificidad.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cómo funciona la regla de la cascada?",
+      "respuesta": "La cascada en las hojas de estilo significa que el orden de las reglas importa en CSS. Cuando dos reglas tienen la misma especificidad, se aplica la que aparece en último lugar en el CSS. Una clase se describe de forma más específica o con más especificidad que el selector de elementos, razón por la que gana.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "La especificidad es el modo que tiene el navegador para...",
+      "respuesta": "decidir qué regla se aplica si diversas reglas tienen selectores diferentes pero podrían aplicarse a un mismo elemento.",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Cuando dos reglas tienen la misma especificidad se aplica la que aparece en último lugar.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El orden de los tres factores es: (marque cuáles están enumeradas con el orden correcto)",
+      "opciones": [
+        { "texto": "1. Importancia\n2. Especificidad\n3. Orden en el código", "esCorrecta": false },
+        { "texto": "1. Orden en el código\n2. Especificidad\n3. Importancia", "esCorrecta": true },
+        { "texto": "1. Importancia\n2. Orden en el código\n3. Especificidad", "esCorrecta": false },
+        { "texto": "1. Orden en el código\n2. Importancia\n3. Especificidad", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué mide la especificidad?",
+      "respuesta": "cuán específica es la selección de un selector",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Una clase tiene menos especificidad que un selector de elementos.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cómo funciona la herencia en CSS?",
+      "respuesta": "si para un elemento se establece el color (color) y el tipo de letra (font-family), cada elemento que se encuentre dentro de él también se mostrará de ese color y con ese tipo de letra, a menos que les se haya aplicado un color y un tipo de letra diferentes directamente.",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Todas las propiedades se heredan en CSS",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Control de herencia:",
+      "opciones": [
+        { "texto": "revert funciona exactamente igual a unset en muchos casos", "esCorrecta": false },
+        { "texto": "inherit: establece que el valor de la propiedad de un elemento hijo sea exactamente igual al del elemento padre", "esCorrecta": true },
+        { "texto": "initial: evita que el valor de la propiedad no sea el establecido por el estilo por defecto del navegador", "esCorrecta": false },
+        { "texto": "revert: revierte el valor en cascada de la propiedad hasta el valor origen como si no hubiera cambios en el elemento actual", "esCorrecta": false },
+        { "texto": "unset: restablece la propiedad a su valor natural", "esCorrecta": false },
+        { "texto": "unset actúa como initial y en caso contrario como inherit", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Para qué se utiliza !important?",
+      "respuesta": "Se utiliza para convertir una propiedad y un valor particular en el elemento más específico, de modo que se invalidan las reglas normales de la cascada.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "!important no puede cambiar el modo de funcionamiento de la cascada.",
+      "respuesta": "!important cambia el modo en que suele funcionar la cascada, por lo que puede dificultar mucho la depuración de problemas en el CSS, especialmente en una hoja de estilo grande.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué son las funciones en CSS?",
+      "respuesta": "Una función consta del nombre de la función y, a continuación, unos paréntesis entre los que se colocan los valores permitidos para esa función.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué son las @rules?",
+      "respuesta": "LAS @RULES DAN AL CSS ALGUNAS INSTRUCCIONES SOBRE CÓMO COMPORTARSE. ALGUNAS @RULES SON SIMPLES, CON EL NOMBRE DE LA REGLA Y UN VALOR.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué @rule debo utilizar para importar una hoja de estilo adicional?",
+      "respuesta": "para importar una hoja de estilo adicional a la hoja de estilo CSS principal, se puede usar @import:",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cómo funcionan las abreviaturas en CSS?",
+      "respuesta": "permiten establecer varios valores de propiedad en una sola línea, lo que ahorra tiempo y ordena el código. A menudo permiten ahorrar valores, luego restablecerán a sus valores iniciales cualquier valor que no se incluya. Esto asegura que se use un conjunto de valores razonable. Sin embargo, puede resultar confuso si se espera que la propiedad abreviada solo cambie los valores que se han introducido.",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los comentarios en CSS comienzan con /* y terminan con *\\",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+     {
+      "tipo": "multiple",
+      "texto": "¿Cuál es el valor predeterminado de la propiedad flex-wrap?",
+      "opciones": [
+        { "texto": "reverse", "esCorrecta": false },
+        { "texto": "wrap-reverse", "esCorrecta": false },
+        { "texto": "wrap", "esCorrecta": false },
+        { "texto": "nowrap", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Flexbox es un modelo de diseño unidimensional.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "La propiedad align-items se aplica al contenedor flex para controlar la alineación a lo largo del eje cruzado.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué propiedad se utiliza para establecer el orden de visualización de los elementos flexibles?",
+      "opciones": [
+        { "texto": "align-self", "esCorrecta": false },
+        { "texto": "order", "esCorrecta": true },
+        { "texto": "flex-order", "esCorrecta": false },
+        { "texto": "flex-position", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "La propiedad flex-grow define la capacidad de un elemento flex para encogerse.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Flexbox requiere que todos los elementos flex sean del mismo tamaño.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué propiedad alinea los elementos flexibles a lo largo del eje cruzado cuando hay varias líneas?",
+      "opciones": [
+        { "texto": "align-content", "esCorrecta": true },
+        { "texto": "justify-content", "esCorrecta": false },
+        { "texto": "align-items", "esCorrecta": false },
+        { "texto": "flex-start", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué propiedad de Flexbox define la dirección de los elementos flexibles dentro del contenedor?",
+      "opciones": [
+        { "texto": "flex-flow", "esCorrecta": false },
+        { "texto": "flex-wrap", "esCorrecta": false },
+        { "texto": "align-content", "esCorrecta": false },
+        { "texto": "flex-direction", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Cuál de las siguientes afirmaciones es verdadera respecto a flex-basis?",
+      "opciones": [
+        { "texto": "Define el tamaño inicial de un elemento flex antes de la distribución del espacio restante.", "esCorrecta": true },
+        { "texto": "Es lo mismo que la propiedad width.", "esCorrecta": false },
+        { "texto": "No tiene efecto cuando flex-grow es 1.", "esCorrecta": false },
+        { "texto": "Define la capacidad de un elemento flex para crecer.", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "La propiedad justify-content se utiliza para alinear elementos a lo largo del eje principal.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Un algoritmo es un conjunto ordenado y finito de operaciones que permite hallar la solución de un problema.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Cuáles de los siguientes NO es un ejemplo de lenguaje de marcado?",
+      "opciones": [
+        { "texto": "XML", "esCorrecta": false },
+        { "texto": "Java", "esCorrecta": true },
+        { "texto": "HTML", "esCorrecta": false },
+        { "texto": "C#", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "JavaScript fue creado en 1995 y es un lenguaje de programación compilado.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿En qué año fue creado JavaScript?",
+      "respuesta": "1995",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los algoritmos son ambiguos y no necesitan tener un orden específico para resolver un problema.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué característica NO corresponde a los algoritmos?",
+      "opciones": [
+        { "texto": "Infinitos", "esCorrecta": true },
+        { "texto": "Precisos", "esCorrecta": false },
+        { "texto": "Ordenados", "esCorrecta": false },
+        { "texto": "Concretos", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Cuáles de estos elementos puede formar parte de un algoritmo?",
+      "opciones": [
+        { "texto": "Condicional FOR", "esCorrecta": true },
+        { "texto": "Funciones", "esCorrecta": true },
+        { "texto": "Condicional IF", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los lenguajes de programación no se pueden clasificar en diferentes grupos según su uso y características.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Un lenguaje de programación es un conjunto de reglas que le indica a un sistema informático qué hacer y cómo hacerlo.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué es un lenguaje de programación?",
+      "opciones": [
+        { "texto": "Un manual de instrucciones.", "esCorrecta": false },
+        { "texto": "Un conjunto de reglas para sistemas informáticos.", "esCorrecta": true },
+        { "texto": "Una receta de cocina.", "esCorrecta": false },
+        { "texto": "Un dispositivo electrónico.", "esCorrecta": false }
+      ]
+    }
+  ]
+}        
 ]

@@ -1,0 +1,3121 @@
+[
+  {
+    "idCuestionario": 1754532003001,
+    "nombre": "Cuestionario Material de la Clase 01",
+    "fechaCreacion": "2025-08-03T12:00:00.000Z",
+    "preguntas": [
+      {
+        "tipo": "multiple",
+        "texto": "El control de versiones es también conocido como control de código fuente.",
+        "opciones": [
+          {
+            "texto": "V",
+            "esCorrecta": true
+          },
+          {
+            "texto": "F",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Un proyecto se considera complejo si su valor en dinero excede el importe total del proyecto medio.",
+        "opciones": [
+          {
+            "texto": "V",
+            "esCorrecta": true
+          },
+          {
+            "texto": "F",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Qué características corresponden a GIT?",
+        "opciones": [
+          {
+            "texto": "Depende de un repositorio central.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Es software libre.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Es muy potente y rápido.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Permite moverse por todas las revisiones de código de manera ágil.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Con GIT, es posible mantener un historial completo de versiones del código.",
+        "opciones": [
+          {
+            "texto": "V",
+            "esCorrecta": true
+          },
+          {
+            "texto": "F",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Qué determina la complejidad de un proyecto de software web?",
+        "opciones": [
+          {
+            "texto": "La cantidad de personas involucradas y el tiempo.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "El tipo de café que toman los programadores.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "El color del logo del proyecto.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "El número de líneas de código.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Las ramas en GIT están destinadas a provocar proyectos divergentes de un proyecto principal.",
+        "opciones": [
+          {
+            "texto": "V",
+            "esCorrecta": true
+          },
+          {
+            "texto": "F",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La programación orientada a objetos organiza el diseño de software en torno a funciones y lógica.",
+        "opciones": [
+          {
+            "texto": "V",
+            "esCorrecta": false
+          },
+          {
+            "texto": "F",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Un objeto en programación puede definirse como un campo de datos con atributos y comportamientos únicos.",
+        "opciones": [
+          {
+            "texto": "V",
+            "esCorrecta": true
+          },
+          {
+            "texto": "F",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La separación geográfica entre múltiples zonas horarias facilita llegar a consensos y reuniones efectivas.",
+        "opciones": [
+          {
+            "texto": "V",
+            "esCorrecta": false
+          },
+          {
+            "texto": "F",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Las operaciones de push y pull son muy rápidas porque solo necesitan acceder al disco duro.",
+        "opciones": [
+          {
+            "texto": "V",
+            "esCorrecta": false
+          },
+          {
+            "texto": "F",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Qué indica la separación geográfica entre múltiples zonas horarias en un proyecto?",
+        "opciones": [
+          {
+            "texto": "Que el proyecto será más complejo de gestionar.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Que el proyecto no tendrá stakeholders.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Que el proyecto será más fácil de gestionar.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Que el proyecto tendrá menos requisitos.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La programación orientada a objetos no es adecuada para programas que se actualizan o mantienen activamente.",
+        "opciones": [
+          {
+            "texto": "V",
+            "esCorrecta": false
+          },
+          {
+            "texto": "F",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "GIT es una herramienta de control de versiones que depende de un repositorio central.",
+        "opciones": [
+          {
+            "texto": "V",
+            "esCorrecta": false
+          },
+          {
+            "texto": "F",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuál de las siguientes afirmaciones es un beneficio del control de versiones?",
+        "opciones": [
+          {
+            "texto": "Siempre se necesita conexión a internet para guardar cambios.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Los cambios no se pueden compartir entre programadores.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Si el servidor central sufre un percance, los datos no pueden ser recuperados.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Ayuda a los equipos de software a trabajar de forma más rápida y eficiente.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Qué es la programación orientada a objetos?",
+        "opciones": [
+          {
+            "texto": "Una herramienta de control de versiones.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Un modelo basado exclusivamente en funciones.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Una práctica de rastrear y gestionar cambios en el código.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Un modelo que organiza el diseño de software en torno a datos u objetos.",
+            "esCorrecta": true
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "idCuestionario": 1754235446324,
+    "nombre": "Cuestionario Clase 01",
+    "fechaCreacion": "2025-08-03T15:37:26.324Z",
+    "preguntas": [
+      {
+        "tipo": "multiple",
+        "texto": "La arquitectura es necesaria para construir aplicaciones con características comunes.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La arquitectura no tiene importancia en la construcción de aplicaciones.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La arquitectura ayuda a identificar y clasificar las aplicaciones por sus atributos.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Las aplicaciones construidas sin una arquitectura definida son más eficientes.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La arquitectura no tiene ninguna relación con las características de las aplicaciones.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuáles son las características del estilo arquitectónico monolítico?",
+        "opciones": [
+          {
+            "texto": "Los componentes trabajan juntos en diferentes servidores.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "La aplicación depende obligadamente de complementos externos para su funcionamiento.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Cada componente trabaja de forma aislada sin compartir recursos ni memoria.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "La aplicación contiene toda la funcionalidad necesaria en una unidad cohesiva de código.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Los sistemas monolíticos pueden trabajar en varios ambientes al mismo tiempo sin problemas.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Los sistemas monolíticos presentan dificultades para los arquitectos y desarrolladores de software.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Los sistemas monolíticos son fáciles de trabajar debido a su estructura simple.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuáles son los dos componentes que conforman el estilo arquitectónico Cliente-Servidor?",
+        "opciones": [
+          {
+            "texto": "Consumidor y proveedor.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Base de datos y servidor web.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Arquitecto y desarrollador.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Lenguaje de programación y entorno de desarrollo.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En una arquitectura cliente-servidor, la parte cliente es una aplicación que se suele ejecutar en una computadora personal.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En una arquitectura cliente-servidor, la parte cliente no depende de un servidor para realizar algunas operaciones.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La parte cliente de una arquitectura cliente-servidor, el servidor no es importante en el proceso de ejecución de operaciones.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuál es la función principal de un servidor dentro de la arquitectura cliente-servidor?",
+        "opciones": [
+          {
+            "texto": "Actuar también como cliente.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Administrar los recursos de la red.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "No realizar tareas adicionales además de sus tareas de servidor.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuáles son las características del estilo arquitectónico Peer-to-Peer (P2P)?",
+        "opciones": [
+          {
+            "texto": "Una red de computadoras donde debe existir servidor central que administre la red.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Todos los dispositivos actúan como cliente y servidor al mismo tiempo.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "No permite compartir recursos al mismo tiempo.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Todos los nodos de la red pueden comunicarse entre sí.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La arquitectura en capas consiste en dividir la aplicación en capas, cada una con un rol muy definido.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La arquitectura en capas solo incluye una capa de presentación (UI).",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El estilo arquitectónico en capas define una cantidad específica de capas para cada aplicación.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El estilo arquitectónico en capas se enfoca en la separación de la aplicación en capas.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El estilo arquitectónico de Microkernel permite agregar nueva funcionalidad mediante la adición de pequeños plugins.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El estilo arquitectónico de Microkernel se enfoca en crear aplicaciones monolíticas.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuáles son las características de una arquitectura de Microkernel?",
+        "opciones": [
+          {
+            "texto": "El componente Core solo contiene los elementos mínimos para hacer funcionar la aplicación.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Los plugins se añaden o instalan al componente Core para reducir su funcionalidad.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Solo hay componentes Core en la aplicación.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "No se divide en componentes.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Puede haber muchos componentes Core y un solo plugin.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "El componente Core se extiende con los plugins.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "SOA es un estilo arquitectónico que se basa en la creación de servicios para lograr la integración de las aplicaciones.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En SOA, los servicios se exponen utilizando estándares abiertos y pueden ser consumidos por cualquier cliente sin importar la tecnología.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuáles son las principales características de las aplicaciones diseñadas con una arquitectura SOA?",
+        "opciones": [
+          {
+            "texto": "Están diseñadas para ser integradas con otras aplicaciones.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "No es posible la interacción entre diferentes aplicaciones mediante el uso de servicios.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "No es necesario exponer como servicios las operaciones necesarias para que otras aplicaciones puedan interactuar con ella.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Están diseñadas para ser utilizadas únicamente por una única aplicación.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El estilo de Microservicios consiste en crear grandes componentes de software que pueden realizar múltiples tareas.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Los microservicios son totalmente dependientes de otros componentes del sistema.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuáles son las características de los Microservicios en una arquitectura de software?",
+        "opciones": [
+          {
+            "texto": "Son pequeños componentes de software que realizan muchas tareas.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Ninguna de las características mencionadas son correctas.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "No son autosuficientes y dependen del resto de componentes.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "No están encapsulados y comparten su implementación interna con otros componentes.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Qué características tiene una arquitectura EDA?",
+        "opciones": [
+          {
+            "texto": "Es síncrona y distribuida.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Es síncrona y centralizada.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "No es escalable.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Es asíncrona y distribuida.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cómo se comunican los componentes en una arquitectura EDA?",
+        "opciones": [
+          {
+            "texto": "De forma síncrona.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "No se comunican.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Por medio de funciones compartidas.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Lanzando eventos.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Un evento en una arquitectura EDA siempre es procesado de forma síncrona.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Los eventos solo pueden ser generados por los componentes principales de la arquitectura.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El Event Bus es responsable de recibir eventos y colocarlos en Event Channels.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Los Event Channels son una serie de bases de datos que almacenan eventos.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En la arquitectura dirigida por eventos, cada componente se comunica de forma síncrona.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En la arquitectura dirigida por eventos, la atomicidad de las transacciones es un punto importante a tomar en cuenta al momento de trabajar con esta arquitectura.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuáles son las restricciones arquitectónicas que enfatiza REST?",
+        "opciones": [
+          {
+            "texto": "La generalidad de las interfaces.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "La dependencia de los componentes.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Los componentes intermedios para reducir la latencia de interacción, reforzar la seguridad y encapsular los sistemas heredados.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Restricción en la escalabilidad de las interacciones de los componentes.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuáles son los tres conceptos clave que describe REST?",
+        "opciones": [
+          {
+            "texto": "Datos, conectores y componentes.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Variables, funciones y objetos.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Datos, objetos y clases.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Componentes, objetos y eventos.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Los conectores en REST son interfaces con estado.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Los conectores en REST deben contener toda la información necesaria para que el conector comprenda la solicitud sin importar las llamadas que se hayan hecho en el pasado.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "idCuestionario": 1754538943000,
+    "nombre": "Cuestionario Material de la Clase 02",
+    "fechaCreacion": "2025-08-03T18:15:43.000Z",
+    "preguntas": [
+        {
+        "tipo": "multiple",
+        "texto": "Las etiquetas HTML no son semánticas.",
+        "opciones": [
+            { "texto": "Verdadero", "esCorrecta": false },
+            { "texto": "Falso", "esCorrecta": true }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "El suministro de electricidad es un buen ejemplo de cómo funcionan las APIs.",
+        "opciones": [
+            { "texto": "Verdadero", "esCorrecta": true },
+            { "texto": "Falso", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "La etiqueta <a> se utiliza para enlaces.",
+        "opciones": [
+            { "texto": "Verdadero", "esCorrecta": true },
+            { "texto": "Falso", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "¿Cuál de las siguientes etiquetas se utiliza para los títulos dentro del contenido?",
+        "opciones": [
+            { "texto": "&lt;a&gt;", "esCorrecta": false },
+            { "texto": "&lt;br&gt;", "esCorrecta": false },
+            { "texto": "&lt;h1&gt;…&lt;h6&gt;", "esCorrecta": true },
+            { "texto": "&lt;strong&gt;", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "HTML define la funcionalidad y el comportamiento del contenido web.",
+        "opciones": [
+            { "texto": "Verdadero", "esCorrecta": false },
+            { "texto": "Falso", "esCorrecta": true }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "¿Qué etiqueta se utiliza para añadir imágenes al documento?",
+        "opciones": [
+            { "texto": "&lt;img&gt;", "esCorrecta": true },
+            { "texto": "&lt;strong&gt;", "esCorrecta": false },
+            { "texto": "&lt;div&gt;", "esCorrecta": false },
+            { "texto": "&lt;a&gt;", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "La etiqueta <div> se utiliza para crear divisiones o bloques dentro del contenido.",
+        "opciones": [
+            { "texto": "Verdadero", "esCorrecta": true },
+            { "texto": "Falso", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "Las APIs de HTML son construcciones que permiten a los desarrolladores crear funcionalidades complejas de manera simple.",
+        "opciones": [
+            { "texto": "Verdadero", "esCorrecta": true },
+            { "texto": "Falso", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "¿Qué etiqueta se utiliza para la información sobre el documento?",
+        "opciones": [
+            { "texto": "&lt;head&gt;", "esCorrecta": true },
+            { "texto": "&lt;p&gt;", "esCorrecta": false },
+            { "texto": "&lt;body&gt;", "esCorrecta": false },
+            { "texto": "&lt;div&gt;", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "La etiqueta <br> se utiliza para añadir imágenes al documento.",
+        "opciones": [
+            { "texto": "Verdadero", "esCorrecta": false },
+            { "texto": "Falso", "esCorrecta": true }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "¿Qué etiqueta se utiliza para poner el texto en negrita?",
+        "opciones": [
+            { "texto": "&lt;em&gt;", "esCorrecta": false },
+            { "texto": "&lt;i&gt;", "esCorrecta": true },
+            { "texto": "&lt;b&gt;", "esCorrecta": false },
+            { "texto": "&lt;strong&gt;", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "HTML se utiliza para describir la apariencia de una página web.",
+        "opciones": [
+            { "texto": "Verdadero", "esCorrecta": false },
+            { "texto": "Falso", "esCorrecta": true }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "¿Qué es una API en el contexto de HTML?",
+        "opciones": [
+            { "texto": "Una construcción que permite a los desarrolladores crear funcionalidades complejas de manera simple", "esCorrecta": true },
+            { "texto": "Una herramienta de análisis de páginas web", "esCorrecta": false },
+            { "texto": "Un protocolo de transferencia de hipertexto", "esCorrecta": false },
+            { "texto": "Un tipo de etiqueta HTML", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "¿Qué etiqueta se utiliza para los párrafos?",
+        "opciones": [
+            { "texto": "&lt;text&gt;", "esCorrecta": false },
+            { "texto": "&lt;p&gt;", "esCorrecta": true },
+            { "texto": "&lt;paragraph&gt;", "esCorrecta": false },
+            { "texto": "&lt;para&gt;", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "¿Qué tecnología se utiliza generalmente para describir la funcionalidad/comportamiento de una página web?",
+        "opciones": [
+            { "texto": "C#", "esCorrecta": false },
+            { "texto": "JavaScript", "esCorrecta": true },
+            { "texto": "HTML", "esCorrecta": false },
+            { "texto": "CSS", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "¿Qué significa HTML?",
+        "opciones": [
+            { "texto": "HyperText Makeup Language", "esCorrecta": false },
+            { "texto": "HyperTransfer Makeup Language", "esCorrecta": false },
+            { "texto": "HyperText Markup Language", "esCorrecta": true },
+            { "texto": "HyperTransfer Markup Language", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "¿Qué etiqueta se utiliza para los saltos de línea?",
+        "opciones": [
+            { "texto": "&lt;lb&gt;", "esCorrecta": false },
+            { "texto": "&lt;br&gt;", "esCorrecta": true },
+            { "texto": "&lt;break&gt;", "esCorrecta": false },
+            { "texto": "&lt;linebreak&gt;", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "La etiqueta <strong> se utiliza para subrayar texto.",
+        "opciones": [
+            { "texto": "Verdadero", "esCorrecta": false },
+            { "texto": "Falso", "esCorrecta": true }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "¿Qué representa el \"hipertexto\" en HTML?",
+        "opciones": [
+            { "texto": "El texto que está en negrita", "esCorrecta": false },
+            { "texto": "Los enlaces que conectan páginas web entre sí", "esCorrecta": true },
+            { "texto": "El texto que está oculto", "esCorrecta": false },
+            { "texto": "El texto que está subrayado", "esCorrecta": false }
+        ]
+        },
+        {
+        "tipo": "multiple",
+        "texto": "HTML es un lenguaje de marcado de hipertexto.",
+        "opciones": [
+            { "texto": "Verdadero", "esCorrecta": true },
+            { "texto": "Falso", "esCorrecta": false }
+        ]
+        }
+    ]
+    },
+
+
+
+
+
+    {
+        "idCuestionario": 1754539512000,
+        "nombre": "Cuestionario Clase 02",
+        "fechaCreacion": "2025-08-03T15:45:12.000Z",
+        "preguntas": [
+            {
+            "tipo": "multiple",
+            "texto": "HTML es un lenguaje de programación.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿HTML se utiliza para crear y desarrollar páginas web?",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Las agrupaciones de contenido en HTML no tienen ninguna relación con la forma en que los datos se ven o se comportan?",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿En dónde se encuentra el contenido HTML?",
+            "opciones": [
+                { "texto": "El contenido se encuentra entre la etiqueta de cierre y la etiqueta de apertura.", "esCorrecta": false },
+                { "texto": "El contenido se encuentra antes de la etiqueta de apertura.", "esCorrecta": false },
+                { "texto": "El contenido se encuentra entre la etiqueta de apertura y la etiqueta de cierre.", "esCorrecta": true },
+                { "texto": "El contenido se encuentra después de la etiqueta de cierre.", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "La Etiqueta de cierre es similar a la etiqueta de apertura con la diferencia que se encuentra entre < > antes de finalizar la etiqueta.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿HTML se utiliza junto con CSS y JavaScript para ampliar su funcionalidad?",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "JavaScript no permite añadir funciones avanzadas en una página web.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "HTML5 es la quinta revisión y la versión más nueva del estándar HTML.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Qué mejoras ofrece HTML5 en comparación con versiones anteriores de HTML?",
+            "opciones": [
+                { "texto": "HTML5 es igual a versiones anteriores de HTML.", "esCorrecta": false },
+                { "texto": "Mejor soporte para medios enriquecidos.", "esCorrecta": true },
+                { "texto": "Se limita a la creación de sitios web estáticos.", "esCorrecta": false },
+                {
+                "texto": "Soporte para la creación de aplicaciones web interactivas y conectadas a servidores de manera más efectiva.",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Si el navegador no es compatible con HTML5 ignorará las nuevas características.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Declarar que el documento contiene marcado HTML5 con el tipo de documento HTML5 es muy simple: <!DOCTYPE html5>",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "No se especifica el conjunto de caracteres como primera medida en un documento HTML5",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Por qué es importante escribir un marcado HTML válido en HTML5?",
+            "opciones": [
+                {
+                "texto": "Pero en el caso de errores en el marcado, todos los navegadores compatibles deben comportarse exactamente de la misma manera.",
+                "esCorrecta": true
+                },
+                { "texto": "Porque el marcado inválido solo se puede leer en navegadores antiguos.", "esCorrecta": false },
+                { "texto": "Porque el marcado válido es más fácil de leer y mantener.", "esCorrecta": true },
+                { "texto": "Porque los navegadores compatibles con HTML5 no aceptan marcado inválido.", "esCorrecta": false },
+                {
+                "texto": "Porque el marcado válido aumenta la importancia de las incompatibilidades en varios navegadores más antiguos.",
+                "esCorrecta": false
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Qué versión de HTML no existió?",
+            "opciones": [
+                { "texto": "HTML 4", "esCorrecta": false },
+                { "texto": "HTML 2", "esCorrecta": false },
+                { "texto": "HTML 3", "esCorrecta": false },
+                { "texto": "HTML 1", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "La semántica en HTML no describe con mayor precisión cuál es su contenido.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Las secciones de contenido en HTML5 son:",
+            "opciones": [
+                { "texto": "&lt;place&gt;", "esCorrecta": false },
+                { "texto": "&lt;aside&gt;", "esCorrecta": true },
+                { "texto": "&lt;section&gt;", "esCorrecta": true },
+                { "texto": "&lt;header&gt;", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "&lt;input&gt; y &lt;output&gt; se utilizan en formularios.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Algunos elementos nuevos de semántica son:",
+            "opciones": [
+                { "texto": "&lt;data&gt;", "esCorrecta": true },
+                { "texto": "&lt;meter&gt;", "esCorrecta": true },
+                { "texto": "&lt;mark&gt;", "esCorrecta": true },
+                { "texto": "&lt;output&gt;", "esCorrecta": true },
+                { "texto": "&lt;figure&gt;", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "MathML permite integrar directamente fórmulas matemáticas.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "La conectividad permite comunicarse con el servidor.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Web Sockets",
+            "opciones": [
+                {
+                "texto": "Permite crear una conexión entre la página y el servidor.",
+                "esCorrecta": false
+                },
+                {
+                "texto": "Solo se permite HTML como formato en el intercambio de datos.",
+                "esCorrecta": false
+                },
+                {
+                "texto": "No establece una conexión permanente.",
+                "esCorrecta": false
+                },
+                {
+                "texto": "La conexión es permanente y se admite cualquier tipo de datos en el intercambio.",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "El evento de servidor enviados permite colocar eventos en un servidor.",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": false
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "La videoconferencia utiliza WebRTC",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": false
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Sin conexión y almacenamiento permite...",
+            "opciones": [
+                {
+                "texto": "Almacenar datos localmente en el lado del cliente.",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Almacenar datos remotamente en el lado del servidor.",
+                "esCorrecta": false
+                },
+                {
+                "texto": "Operar sin conexión.",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Las aplicaciones pueden detectar si hay o no una conexión a Internet.",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": false
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "WHATWG restringe a las aplicaciones web almacenar datos estructurados en el lado del cliente.",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": false
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "IndexedDB:",
+            "opciones": [
+                {
+                "texto": "Es un estándar.",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Permite búsquedas de alto rendimiento mediante índices.",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Almacena grandes cantidades de datos no estructurados.",
+                "esCorrecta": false
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Para utilizar la Cámara Web debemos implementar complementos externos compatibles con HTML5",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": false
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "&lt;canvas&gt; permite dibujar gráficos y otros objetos.",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": false
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Web Workers",
+            "opciones": [
+                {
+                "texto": "Ralentiza eventos interactivos.",
+                "esCorrecta": false
+                },
+                {
+                "texto": "Permite delegar la evaluación de JavaScript en segundo plano.",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "A pesar de su nombre, XMLHttpRequest puede ser usado para recibir cualquier tipo de dato, no solo XML, y admite otros formatos además de HTTP",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": false
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "El atributo wikiEditable transforma un sitio web en una wiki.",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": false
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Atributos de gestión del foco en HTML",
+            "opciones": [
+                {
+                "texto": "activeTag",
+                "esCorrecta": false
+                },
+                {
+                "texto": "requestAnimationFrame",
+                "esCorrecta": false
+                },
+                {
+                "texto": "hasFocus",
+                "esCorrecta": true
+                },
+                {
+                "texto": "activeElement",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Para bloquear el puntero al contenido utilizo API Pointer Lock",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": false
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "El navegador no puede detectar la orientación del dispositivo.",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": false
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "La secuencia de una estructura básica de un documento HTML5 es:",
+            "opciones": [
+                {
+                "texto": "head",
+                "esCorrecta": false
+                },
+                {
+                "texto": "body",
+                "esCorrecta": false
+                },
+                {
+                "texto": "DOCTYPE",
+                "esCorrecta": false
+                },
+                {
+                "texto": "elemento",
+                "esCorrecta": false
+                },
+                {
+                "texto": "html",
+                "esCorrecta": false
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Se puede registrar las aplicaciones web como controladores de protocolo.",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": false
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Fullscreen API",
+            "opciones": [
+                {
+                "texto": "Con la interfaz de usuario del explorador mostrada.",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Controla el uso de la pantalla completa de una página Web.",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Sin la interfaz de usuario del explorador mostrada.",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Para construir una buena aplicación web offline-funcional",
+            "opciones": [
+                {
+                "texto": "No es necesario saber cuando la aplicación esta realmente sin conexión.",
+                "esCorrecta": false
+                },
+                {
+                "texto": "Se necesita saber cuando la aplicación esta realmente sin conexión.",
+                "esCorrecta": true
+                },
+                {
+                "texto": "No es necesario saber cuando sea devuelta a un estado con conexión.",
+                "esCorrecta": false
+                },
+                {
+                "texto": "Es necesario saber cuando sea devuelta a un estado con conexión.",
+                "esCorrecta": true
+                }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "El uso de geolocalización permite a los navegadores localizar la posición del usuario mediante geolocalización.",
+            "opciones": [
+                {
+                "texto": "Verdadero",
+                "esCorrecta": true
+                },
+                {
+                "texto": "Falso",
+                "esCorrecta": false
+                }
+            ]
+            }
+        ] 
+    },
+
+
+
+
+
+    {
+        "idCuestionario": 1754255823137,
+        "nombre": "Cuestionario Material de la Clase 3",
+        "fechaCreacion": "2025-08-03T21:17:03.137963Z",
+        "preguntas": [
+            {
+            "tipo": "multiple",
+            "texto": "En HTML5, la distinción entre elementos de bloque y en línea se mantiene igual que en HTML 4.01",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Los elementos de bloque comienzan siempre en una nueva línea.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "La etiqueta <li> es un elemento de bloque.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Qué etiqueta se utiliza para la creación de niveles de cabecera?",
+            "opciones": [
+                { "texto": "&lt;section&gt;", "esCorrecta": false },
+                { "texto": "&lt;h1&gt;", "esCorrecta": true },
+                { "texto": "&lt;header&gt;", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Los elementos de bloque no pueden contener otros elementos de bloque.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Cuál de las siguientes etiquetas no es un elemento de línea?",
+            "opciones": [
+                { "texto": "&lt;img&gt;", "esCorrecta": false },
+                { "texto": "&lt;p&gt;", "esCorrecta": true },
+                { "texto": "&lt;ul&gt;", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Qué etiqueta representa un control para la edición multilínea de texto sin formato?",
+            "opciones": [
+                { "texto": "&lt;label&gt;", "esCorrecta": false },
+                { "texto": "&lt;input&gt;", "esCorrecta": false },
+                { "texto": "&lt;textarea&gt;", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Qué etiqueta se usa para definir una sección o pie de página?",
+            "opciones": [
+                { "texto": "&lt;header&gt;", "esCorrecta": false },
+                { "texto": "&lt;article&gt;", "esCorrecta": false },
+                { "texto": "&lt;footer&gt;", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Qué etiqueta se usa para aplicar estilo al texto o agrupar elementos en línea?",
+            "opciones": [
+                { "texto": "&lt;div&gt;", "esCorrecta": false },
+                { "texto": "&lt;section&gt;", "esCorrecta": false },
+                { "texto": "&lt;span&gt;", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Qué etiqueta se utiliza para marcar énfasis?",
+            "opciones": [
+                { "texto": "&lt;form&gt;", "esCorrecta": false },
+                { "texto": "&lt;strong&gt;", "esCorrecta": true },
+                { "texto": "&lt;div&gt;", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Cuál de las siguientes etiquetas no es un elemento de bloque?",
+            "opciones": [
+                { "texto": "&lt;strong&gt;", "esCorrecta": true },
+                { "texto": "&lt;span&gt;", "esCorrecta": true },
+                { "texto": "&lt;footer&gt;", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "La etiqueta <div> es utilizada para la división de documentos.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "La etiqueta <span> es un elemento de bloque.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "La etiqueta <input> se usa para crear botones.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Qué etiqueta se usa para representar una imagen en el documento?",
+            "opciones": [
+                { "texto": "&lt;img&gt;", "esCorrecta": true },
+                { "texto": "&lt;figure&gt;", "esCorrecta": false },
+                { "texto": "&lt;figcaption&gt;", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Qué etiqueta se usa para crear controles interactivos?",
+            "opciones": [
+                { "texto": "&lt;input&gt;", "esCorrecta": true },
+                { "texto": "&lt;select&gt;", "esCorrecta": false },
+                { "texto": "&lt;button&gt;", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "La etiqueta <textarea> es para la edición de texto en una sola línea",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "La etiqueta <form> define el principio y final de un formulario.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": true },
+                { "texto": "Falso", "esCorrecta": false }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "¿Qué etiqueta representa un control que muestra un menú de opciones?",
+            "opciones": [
+                { "texto": "&lt;button&gt;", "esCorrecta": false },
+                { "texto": "&lt;label&gt;", "esCorrecta": false },
+                { "texto": "&lt;select&gt;", "esCorrecta": true }
+            ]
+            },
+            {
+            "tipo": "multiple",
+            "texto": "Los elementos en línea pueden contener elementos de bloque.",
+            "opciones": [
+                { "texto": "Verdadero", "esCorrecta": false },
+                { "texto": "Falso", "esCorrecta": true }
+            ]
+            }
+        ]
+        },
+
+
+
+
+
+        {
+            "idCuestionario": 1754538305000,
+            "nombre": "Cuestionario Clase 03",
+            "fechaCreacion": "2025-08-03T15:45:05.000Z",
+            "preguntas": [
+                {
+                "tipo": "multiple",
+                "texto": "HTML consiste en una serie de elementos que encierran diferentes partes de un contenido.",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": true },
+                    { "texto": "Falso", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Las etiquetas de encierre",
+                "opciones": [
+                    { "texto": "Pueden hacer de una palabra o una imagen un hipervínculo a otro sitio.", "esCorrecta": true },
+                    { "texto": "Cambiar palabras a cursiva", "esCorrecta": false },
+                    { "texto": "Agrandar o achicar la letra", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Los elementos no pueden tener atributos.",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": false },
+                    { "texto": "Falso", "esCorrecta": true }
+                ]
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "¿Qué son los atributos en HTML?",
+                "respuesta": "Contienen información adicional acerca del elemento, que no se desea que aparezca en el contenido real del elemento.",
+                "opciones": []
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "¿Qué debe tener siempre un atributo?",
+                "respuesta": "1.Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o más atributos). 2.El nombre del atributo, seguido por un signo de igual (=). 3.Comillas de apertura y de cierre, encerrando el valor del atributo.",
+                "opciones": []
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Un atributo debe tener siempre:",
+                "opciones": [
+                    { "texto": "Un espacio entre este y el nombre del elemento.", "esCorrecta": true },
+                    { "texto": "Paréntesis de apertura y de cierre, encerrando el valor del atributo.", "esCorrecta": false },
+                    { "texto": "Comillas de apertura y de cierre, encerrando el valor del atributo.", "esCorrecta": true },
+                    { "texto": "El nombre del atributo, seguido por un signo de suma (+).", "esCorrecta": false },
+                    { "texto": "El nombre del atributo, seguido por un signo de igual (=).", "esCorrecta": true }
+                ]
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Los atributos se incluyen en la etiqueta de cierre.",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": false },
+                    { "texto": "Falso", "esCorrecta": true }
+                ]
+                },
+                {
+                "tipo": "multiple",
+                "texto": "El atributo class se puede utilizar para apuntar información de estilos.",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": true },
+                    { "texto": "Falso", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "multiple",
+                "texto": "El atributo con valores simples no es obligación entrecomillar.",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": true },
+                    { "texto": "Falso", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Incluir elementos dentro de otros se llama:",
+                "opciones": [
+                    { "texto": "Composición", "esCorrecta": false },
+                    { "texto": "Anidamiento", "esCorrecta": true },
+                    { "texto": "Sumar", "esCorrecta": false },
+                    { "texto": "Agregación", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "¿Para qué sirve el elemento <strong>?",
+                "respuesta": "Sirve para resaltar una palabra del texto, que significa que dicha palabra se debe enfatizar.",
+                "opciones": []
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Esto es correcto:<br><br>&lt;p&gt;Mi gato es &lt;strong&gt;muy gruñon.&lt;/p&gt;&lt;/strong&gt;",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": false },
+                    { "texto": "Falso", "esCorrecta": true }
+                ]
+                },
+                {
+                "tipo": "multiple",
+                "texto": "No es necesario que los elementos deban abrirse y cerrarse ordenadamente.",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": false },
+                    { "texto": "Falso", "esCorrecta": true }
+                ]
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "¿Qué sucede si los elementos se encuentran solapados?",
+                "respuesta": "El navegador web tratará de adivinar lo que se intenta decirle, pero puede que los resultados sean inesperados.",
+                "opciones": []
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Los elementos que no poseen contenido se denominan elementos vacíos.",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": true },
+                    { "texto": "Falso", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "¿Para qué sirve el elemento <img>?",
+                "respuesta": "Sirve para incluir una imagen en el documento.",
+                "opciones": []
+                },
+                {
+                "tipo": "multiple",
+                "texto": "El elemento <img> tiene etiqueta de cierre.",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": false },
+                    { "texto": "Falso", "esCorrecta": true }
+                ]
+                },
+                {
+                "tipo": "multiple",
+                "texto": "El elemento <img> no posee contenido encerrado.",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": true },
+                    { "texto": "Falso", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "multiple",
+                "texto": "El atributo alt",
+                "opciones": [
+                    { "texto": "Contiene un texto que describe la imagen", "esCorrecta": true },
+                    { "texto": "Es útil cuando hay algún error en el código", "esCorrecta": true },
+                    { "texto": "Los screen readers no pueden leer el contenido de alt", "esCorrecta": false },
+                    { "texto": "Los screen readers pueden leer el contenido de alt", "esCorrecta": true },
+                    { "texto": "Contiene un texto que altera a la imagen", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "¿Cuántos niveles de encabezados en HTML hay?",
+                "respuesta": "6",
+                "opciones": []
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "¿Cuáles son las recomendaciones para el uso de encabezados?",
+                "respuesta": "El encabezamiento de nivel 1 tiene un estilo implícito. No utilices elementos de encabezado para hacer el texto más grande o más oscuro, porque este elemento se utiliza por accesibilidad y otras razones como el posicionamiento en buscadores (Search Engine Optimization, SEO).\nIntenta crear una secuencia significativa de encabezados en tus páginas, sin saltarte niveles.",
+                "opciones": []
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Los elementos <p> se utilizan para encerrar párrafos de texto.",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": true },
+                    { "texto": "Falso", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "¿Cuáles tipos de listas más comunes hay en HTML?",
+                "respuesta": "2",
+                "opciones": []
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Cada elemento de la lista se coloca dentro de otro elemento: <li>",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": true },
+                    { "texto": "Falso", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "Para implementar un vínculo se utiliza un vínculo simple …:",
+                "respuesta": "<a>",
+                "opciones": []
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "href en inglés significa:",
+                "respuesta": "hypertext reference (referencia de hipertexto)",
+                "opciones": []
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Algunos elementos de contenido incrustado son:",
+                "opciones": [
+                    { "texto": "&lt;map&gt;", "esCorrecta": true },
+                    { "texto": "&lt;object&gt;", "esCorrecta": true },
+                    { "texto": "&lt;sup&gt;", "esCorrecta": false },
+                    { "texto": "&lt;picture&gt;", "esCorrecta": true },
+                    { "texto": "&lt;dfn&gt;", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "¿Qué herramienta o recurso debería utilizar para depurar y validar mi HTML?",
+                "respuesta": "https://validator.w3.org/",
+                "opciones": []
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "¿Qué significa que HTML sea permisivo?",
+                "respuesta": "Es permisivo porque cuando se creó la web por primera vez, se decidió que el hecho de permitir que la gente publicara su contenido era más importante que el hecho de que la sintaxis fuera totalmente correcta.",
+                "opciones": []
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Errores sintácticos:",
+                "opciones": [
+                    { "texto": "Son fáciles de arreglar", "esCorrecta": true },
+                    { "texto": "Impiden que el programa funcione", "esCorrecta": true },
+                    { "texto": "HTML no suele producir este tipo de error", "esCorrecta": true },
+                    { "texto": "Son difíciles de arreglar", "esCorrecta": false },
+                    { "texto": "No impiden que el programa funcione", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "multiple",
+                "texto": "Errores lógicos:",
+                "opciones": [
+                    { "texto": "La sintaxis es incorrecta", "esCorrecta": false },
+                    { "texto": "Son difíciles de solucionar", "esCorrecta": true },
+                    { "texto": "Hay mensajes de error que nos avisen de ellos.", "esCorrecta": false },
+                    { "texto": "La sintaxis es correcta", "esCorrecta": true },
+                    { "texto": "Son fáciles de solucionar", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "multiple",
+                "texto": "La mejor estrategia es comenzar por pasar tu página HTML por el servicio de validación de etiquetas.",
+                "opciones": [
+                    { "texto": "Verdadero", "esCorrecta": true },
+                    { "texto": "Falso", "esCorrecta": false }
+                ]
+                },
+                {
+                "tipo": "desarrollar",
+                "texto": "La organización … es la que se encarga de definir las especificaciones de HTML, CSS y otras tecnologías web.",
+                "respuesta": "W3C",
+                "opciones": []
+                }
+            ]        
+        },
+
+
+
+
+        {
+  "idCuestionario": 1754540653891,
+  "nombre": "Cuestionario Material de la Clase 4",
+  "fechaCreacion": "2025-08-03T18:24:13.891Z",
+  "preguntas": [
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cuántos tipos de selectores clasificados existen en CSS?",
+      "respuesta": "4",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué otro nombre recibe el layout en el contexto de desarrollo web?",
+      "opciones": [
+        { "texto": "Plantilla", "esCorrecta": true },
+        { "texto": "Selector", "esCorrecta": false },
+        { "texto": "Protocolo", "esCorrecta": false },
+        { "texto": "Script", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué establece el concepto de \"estilos en cascada\"?",
+      "opciones": [
+        { "texto": "Los estilos no siguen un orden específico.", "esCorrecta": false },
+        { "texto": "Los estilos se aplican de arriba hacia abajo.", "esCorrecta": true },
+        { "texto": "Los estilos se aplican solo a texto.", "esCorrecta": false },
+        { "texto": "Los estilos se aplican de abajo hacia arriba.", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué se presenta al cliente para su aprobación, modificación o rechazo?",
+      "opciones": [
+        { "texto": "La hoja de estilos CSS", "esCorrecta": false },
+        { "texto": "El contenido multimedia", "esCorrecta": false },
+        { "texto": "El layout", "esCorrecta": true },
+        { "texto": "El código fuente", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El layout es el producto inicial de una página o sitio web.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los selectores CSS no dependen del buen manejo para su eficiencia.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿A qué se refiere el término \"selector CSS\"?",
+      "opciones": [
+        { "texto": "Una función de JavaScript", "esCorrecta": false },
+        { "texto": "El identificador de elementos del DOM en la hoja de estilos", "esCorrecta": true },
+        { "texto": "Una regla de estilo específica", "esCorrecta": false },
+        { "texto": "Un documento HTML", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué representa el layout en el desarrollo web?",
+      "opciones": [
+        { "texto": "La base de datos", "esCorrecta": false },
+        { "texto": "El código final", "esCorrecta": false },
+        { "texto": "El servidor web", "esCorrecta": false },
+        { "texto": "El diseño inicial", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Una plantilla de diseño no es necesaria para desarrollar un sitio web.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Solo existen tres tipos de selectores CSS.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los elementos en línea no pueden comenzar en cualquier parte de una línea.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué significan las siglas CSS?",
+      "opciones": [
+        { "texto": "Cascading Style Sheets", "esCorrecta": true },
+        { "texto": "Computer Style Sheets", "esCorrecta": false },
+        { "texto": "Colorful Style Sheets", "esCorrecta": false },
+        { "texto": "Creative Style System", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "CSS no se utiliza para aplicar estilos visuales a las páginas web.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué se puede usar como base para una página web?",
+      "opciones": [
+        { "texto": "Un atributo HTML", "esCorrecta": false },
+        { "texto": "Un layout", "esCorrecta": true },
+        { "texto": "Un selector CSS", "esCorrecta": false },
+        { "texto": "Un documento XML", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los elementos de bloque siempre comienzan en una nueva línea.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El layout es un término que no tiene equivalente en español.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué palabra se usa para describir la distribución de elementos en un diseño?",
+      "opciones": [
+        { "texto": "Sketch", "esCorrecta": false },
+        { "texto": "Layout", "esCorrecta": true },
+        { "texto": "Blueprint", "esCorrecta": false },
+        { "texto": "Map", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué elementos comienzan en una nueva línea por defecto?",
+      "opciones": [
+        { "texto": "Elementos en línea", "esCorrecta": false },
+        { "texto": "Selectores CSS", "esCorrecta": false },
+        { "texto": "Atributos HTML", "esCorrecta": false },
+        { "texto": "Elementos de bloque", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "CSS significa \"Cascading Style Sheets\".",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los selectores CSS solo se aplican a documentos HTML.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El layout se refiere únicamente a la distribución de elementos en una página impresa.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    }
+  ]
+},
+
+
+
+
+{
+  "idCuestionario": 1754541810020,
+  "nombre": "Cuestionario Clase 04",
+  "fechaCreacion": "2025-08-03T18:43:30.020Z",
+  "preguntas": [
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Para qué sirve CSS?",
+      "respuesta": "Sirve para definir la capa de presentación, es decir, la parte relacionada con el aspecto.",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "CSS define el contenido y en HTML se coloca todo lo relacionado al aspecto.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cuáles son las buenas prácticas en CSS?",
+      "respuesta": "Escribir el código en archivos independientes, que tendrán extensión .css.\nNo conviene colocar código CSS por tanto dentro de archivos HTML. Debemos evitar colocar estilos en etiquetas <style> dentro del propio código HTML.\nTampoco conviene colocar estilos en los atributos \"style\" de las etiquetas HTML.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Quién es el encargado de desarrollar y mantener CSS?",
+      "respuesta": "Es desarrollado por un grupo del W3C llamado CSS Working Group. Dicho grupo se compone por representantes de proveedores de navegadores y otras compañías interesadas, además de contar también con otras personas (expertos invitados) que son voces independientes no vinculadas a una organización.",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "CSS ha llegado al final de su desarrollo.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué tipo de lenguaje es CSS?",
+      "respuesta": "Es un lenguaje de hojas de estilo (permite aplicar estilos de manera selectiva a elementos en documentos HTML).",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "CSS es un leguaje basado en reglas.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Esta sintaxis es válida:\n\ncolor {\n p: red;\n}",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿En dónde escribimos...?\n\n&lt;link href=&quot;styles/style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;",
+      "respuesta": "Abrimos el archivo html y escribimos la línea en algún lugar entre las etiquetas <head> y </head>.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "Describa la anatomía de una regla CSS",
+      "respuesta": "Selector: el (los) elemento HTML a dar estilo (en este caso, los elementos <p> ).\nDeclaración: especifica a cuál de las propiedades del elemento se quiere dar estilo.\nPropiedades: selección de la propiedad del elemento HTML que queremos afectar con la regla.\nValor de la propiedad: a la derecha de la propiedad, después de los dos puntos (:), se escribe el valor de la propiedad",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Otras partes importantes de la sintaxis:",
+      "opciones": [
+        { "texto": "Cada regla debe estar encapsulada entre llaves {}", "esCorrecta": true },
+        { "texto": "Dentro de cada declaración se debe usar =", "esCorrecta": false },
+        { "texto": "Utilizamos coma (,) para separar una declaración de la siguiente", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cómo puedo seleccionar varios elementos y aplicar una sola regla?",
+      "respuesta": "Debemos separados por comas (,).",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Algunos de los selectores válidos de CSS son:",
+      "opciones": [
+        { "texto": "Selector de valor", "esCorrecta": false },
+        { "texto": "Selector de id", "esCorrecta": true },
+        { "texto": "Selector de atributo", "esCorrecta": true },
+        { "texto": "Selector de clase", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cuál es la analogía que se utiliza para la escritura de CSS?",
+      "respuesta": "Que trata mucho sobre cajas —ajustando su tamaño, color, posición, etc.—.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "El espacio alrededor del contenido es:",
+      "respuesta": "El padding (relleno).",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué regla debo escribir para aplicar un color de fondo a una página HTML?",
+      "respuesta": "\"background-color:\".\n\nEjemplo:\n\nhtml {\nbackground-color: #00539F;\n}",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los navegadores no aplican un estilo por defecto.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué propiedad debo utilizar si quiero aplicar una sombra al texto del elemento?",
+      "respuesta": "text-shadow",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El elemento <body> es un elemento block-level",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué tipo de elemento son las imágenes?",
+      "respuesta": "Son elementos inline, lo que quiere decir que no puedes aplicarles márgenes,\ndebes dar a la imagen un comportamiento de block-level usando display: block;.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cuál es la extensión de un archivo de CSS?",
+      "respuesta": "La extensión .css muestra que es un archivo CSS.",
+      "opciones": []
+    }
+  ]
+},
+
+
+
+
+{
+  "idCuestionario": 1754541732169,
+  "nombre": "Cuestionario de la Clase 5",
+  "fechaCreacion": "2025-08-03T18:42:12.169Z",
+  "preguntas": [
+    {
+      "tipo": "multiple",
+      "texto": "Mobile Design First significa diseñar primero para dispositivos móviles y luego escalar para pantallas más grandes.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Las imágenes responsive requieren el uso del atributo srcset para optimizar su carga en diferentes dispositivos.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué valores de la propiedad display son especialmente útiles para diseños responsive?",
+      "opciones": [
+        { "texto": "Flex", "esCorrecta": true },
+        { "texto": "Table", "esCorrecta": false },
+        { "texto": "Grid", "esCorrecta": true },
+        { "texto": "Inline-block", "esCorrecta": false },
+        { "texto": "Block", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El Box Model de CSS incluye:",
+      "opciones": [
+        { "texto": "Límite de la sombra", "esCorrecta": false },
+        { "texto": "Límite del relleno (padding)", "esCorrecta": true },
+        { "texto": "Límite del margen", "esCorrecta": true },
+        { "texto": "Límite del contenido", "esCorrecta": true },
+        { "texto": "Límite del borde", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los media queries solo pueden ajustar el ancho de los elementos, pero no otros aspectos como tipografía o espaciado.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Cuáles son ventajas del Responsive Design?",
+      "opciones": [
+        { "texto": "Reduce el tiempo de carga de la página", "esCorrecta": false },
+        { "texto": "Elimina la necesidad de JavaScript", "esCorrecta": false },
+        { "texto": "Mejora del posicionamiento SEO", "esCorrecta": true },
+        { "texto": "Enriquece la experiencia del usuario", "esCorrecta": true },
+        { "texto": "Evita la duplicidad del contenido", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué técnicas se utilizan para implementar imágenes responsive?",
+      "opciones": [
+        { "texto": "Media queries", "esCorrecta": true },
+        { "texto": "Atributo srcset", "esCorrecta": true },
+        { "texto": "CSS sprites", "esCorrecta": false },
+        { "texto": "Object-fit property", "esCorrecta": true },
+        { "texto": "Picture element", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "La principal ventaja del Mobile Design First es puramente estética.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El Responsive Design ayuda a evitar la duplicidad de contenido en diferentes versiones de un sitio web.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los breakpoints o media queries son un módulo CSS3 que permite adaptar el contenido a las características del dispositivo.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El Responsive Design solo afecta a la apariencia visual de una página web, sin impacto en su rendimiento o posicionamiento.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "En el Box Model de CSS, el límite de contenido es la parte más externa de la caja.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué prácticas son recomendadas para el Mobile Design First?",
+      "opciones": [
+        { "texto": "Priorizar el contenido esencial", "esCorrecta": true },
+        { "texto": "Optimizar el rendimiento y tiempos de carga", "esCorrecta": true },
+        { "texto": "Diseñar únicamente para pantallas táctiles", "esCorrecta": false },
+        { "texto": "Implementar accesibilidad desde el inicio", "esCorrecta": true },
+        { "texto": "Usar menús hamburguesa para navegación", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Cuáles de las siguientes afirmaciones sobre Mobile Design First son correctas?",
+      "opciones": [
+        { "texto": "Se diseña primero para dispositivos móviles", "esCorrecta": true },
+        { "texto": "Siempre utiliza un diseño minimalista", "esCorrecta": false },
+        { "texto": "Prioriza la experiencia de usuario en dispositivos móviles", "esCorrecta": true },
+        { "texto": "Se escala posteriormente para pantallas más grandes", "esCorrecta": true },
+        { "texto": "Elimina la necesidad de crear breakpoints", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El enfoque \"Mobile Design First\" surgió como respuesta al crecimiento del uso de dispositivos móviles para navegar por Internet.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué características del dispositivo pueden detectarse mediante media queries?",
+      "opciones": [
+        { "texto": "Sistema operativo", "esCorrecta": false },
+        { "texto": "Ancho del viewport", "esCorrecta": true },
+        { "texto": "Resolución de pantalla", "esCorrecta": true },
+        { "texto": "Nivel de batería", "esCorrecta": false },
+        { "texto": "Orientación del dispositivo", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El Box Model está compuesto por tres áreas: contenido, padding y borde.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué propiedades CSS son especialmente importantes al implementar un diseño responsive?",
+      "opciones": [
+        { "texto": "Display: flex y grid", "esCorrecta": true },
+        { "texto": "Media queries", "esCorrecta": true },
+        { "texto": "Colores en formato hexadecimal", "esCorrecta": false },
+        { "texto": "Unidades relativas (%, em, rem, vh, vw)", "esCorrecta": true },
+        { "texto": "Posición absoluta", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El modelo box-sizing: border-box altera el Box Model estándar para incluir padding y border dentro del width y height definidos.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Al utilizar media queries, ¿qué enfoques son comunes para definir breakpoints?",
+      "opciones": [
+        { "texto": "Basados únicamente en la orientación del dispositivo", "esCorrecta": false },
+        { "texto": "Basados en rangos de tamaño comunes (móvil, tablet, escritorio)", "esCorrecta": true },
+        { "texto": "Basados en dispositivos específicos (iPhone, iPad, etc.)", "esCorrecta": false },
+        { "texto": "Basados en la resolución de pantalla", "esCorrecta": true },
+        { "texto": "Basados en el contenido y su legibilidad", "esCorrecta": true }
+      ]
+    }
+  ]
+},
+
+
+
+
+
+{
+  "idCuestionario": 1754542611210,
+  "nombre": "Cuestionario Clase 05",
+  "fechaCreacion": "2025-08-03T18:56:51.210Z",
+  "preguntas": [
+    {
+      "tipo": "multiple",
+      "texto": "Hoja de estilo externa: Es el método menos común para adjuntar CSS a un documento HTML",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Dónde se escribe el contenido del CSS en estilo externo?",
+      "respuesta": "Está escrito en un archivo independiente con una extensión .css y que se vincula desde un elemento <link> de HTML",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿A qué se denomina hoja de estilo interna?",
+      "respuesta": "Es cuando no hay ningún archivo CSS externo.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cuándo es de utilidad recurrir al estilo interno?",
+      "respuesta": "Puede ser útil al trabajar con un sistema de administración de contenido donde no sea posible modificar los archivos CSS directamente.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cómo implemento los estilos en línea?",
+      "respuesta": "contenido dentro de un atributo de style.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "Los estilos en línea facilitan la lectura y comprensión del código.",
+      "respuesta": "Dificulta la lectura y la comprensión del código.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué reglas tiene CSS para controlar el caso de colisión?",
+      "respuesta": "Cascada y especificidad.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cómo funciona la regla de la cascada?",
+      "respuesta": "La cascada en las hojas de estilo significa que el orden de las reglas importa en CSS. Cuando dos reglas tienen la misma especificidad, se aplica la que aparece en último lugar en el CSS. Una clase se describe de forma más específica o con más especificidad que el selector de elementos, razón por la que gana.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "La especificidad es el modo que tiene el navegador para...",
+      "respuesta": "decidir qué regla se aplica si diversas reglas tienen selectores diferentes pero podrían aplicarse a un mismo elemento.",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Cuando dos reglas tienen la misma especificidad se aplica la que aparece en último lugar.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "El orden de los tres factores es: (marque cuáles están enumeradas con el orden correcto)",
+      "opciones": [
+        { "texto": "1. Importancia\n2. Especificidad\n3. Orden en el código", "esCorrecta": false },
+        { "texto": "1. Orden en el código\n2. Especificidad\n3. Importancia", "esCorrecta": true },
+        { "texto": "1. Importancia\n2. Orden en el código\n3. Especificidad", "esCorrecta": false },
+        { "texto": "1. Orden en el código\n2. Importancia\n3. Especificidad", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué mide la especificidad?",
+      "respuesta": "cuán específica es la selección de un selector",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Una clase tiene menos especificidad que un selector de elementos.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cómo funciona la herencia en CSS?",
+      "respuesta": "si para un elemento se establece el color (color) y el tipo de letra (font-family), cada elemento que se encuentre dentro de él también se mostrará de ese color y con ese tipo de letra, a menos que les se haya aplicado un color y un tipo de letra diferentes directamente.",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Todas las propiedades se heredan en CSS",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Control de herencia:",
+      "opciones": [
+        { "texto": "revert funciona exactamente igual a unset en muchos casos", "esCorrecta": false },
+        { "texto": "inherit: establece que el valor de la propiedad de un elemento hijo sea exactamente igual al del elemento padre", "esCorrecta": true },
+        { "texto": "initial: evita que el valor de la propiedad no sea el establecido por el estilo por defecto del navegador", "esCorrecta": false },
+        { "texto": "revert: revierte el valor en cascada de la propiedad hasta el valor origen como si no hubiera cambios en el elemento actual", "esCorrecta": false },
+        { "texto": "unset: restablece la propiedad a su valor natural", "esCorrecta": false },
+        { "texto": "unset actúa como initial y en caso contrario como inherit", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Para qué se utiliza !important?",
+      "respuesta": "Se utiliza para convertir una propiedad y un valor particular en el elemento más específico, de modo que se invalidan las reglas normales de la cascada.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "!important no puede cambiar el modo de funcionamiento de la cascada.",
+      "respuesta": "!important cambia el modo en que suele funcionar la cascada, por lo que puede dificultar mucho la depuración de problemas en el CSS, especialmente en una hoja de estilo grande.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué son las funciones en CSS?",
+      "respuesta": "Una función consta del nombre de la función y, a continuación, unos paréntesis entre los que se colocan los valores permitidos para esa función.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué son las @rules?",
+      "respuesta": "LAS @RULES DAN AL CSS ALGUNAS INSTRUCCIONES SOBRE CÓMO COMPORTARSE. ALGUNAS @RULES SON SIMPLES, CON EL NOMBRE DE LA REGLA Y UN VALOR.",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Qué @rule debo utilizar para importar una hoja de estilo adicional?",
+      "respuesta": "para importar una hoja de estilo adicional a la hoja de estilo CSS principal, se puede usar @import:",
+      "opciones": []
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿Cómo funcionan las abreviaturas en CSS?",
+      "respuesta": "permiten establecer varios valores de propiedad en una sola línea, lo que ahorra tiempo y ordena el código. A menudo permiten ahorrar valores, luego restablecerán a sus valores iniciales cualquier valor que no se incluya. Esto asegura que se use un conjunto de valores razonable. Sin embargo, puede resultar confuso si se espera que la propiedad abreviada solo cambie los valores que se han introducido.",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los comentarios en CSS comienzan con /* y terminan con *\\",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    }
+  ]
+},
+
+
+
+
+
+{
+  "idCuestionario": 1754545379820,
+  "nombre": "Cuestionario de la Clase 6",
+  "fechaCreacion": "2025-08-03T19:36:19.820Z",
+  "preguntas": [
+    {
+      "tipo": "multiple",
+      "texto": "¿Cuál es el valor predeterminado de la propiedad flex-wrap?",
+      "opciones": [
+        { "texto": "reverse", "esCorrecta": false },
+        { "texto": "wrap-reverse", "esCorrecta": false },
+        { "texto": "wrap", "esCorrecta": false },
+        { "texto": "nowrap", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Flexbox es un modelo de diseño unidimensional.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "La propiedad align-items se aplica al contenedor flex para controlar la alineación a lo largo del eje cruzado.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué propiedad se utiliza para establecer el orden de visualización de los elementos flexibles?",
+      "opciones": [
+        { "texto": "align-self", "esCorrecta": false },
+        { "texto": "order", "esCorrecta": true },
+        { "texto": "flex-order", "esCorrecta": false },
+        { "texto": "flex-position", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "La propiedad flex-grow define la capacidad de un elemento flex para encogerse.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Flexbox requiere que todos los elementos flex sean del mismo tamaño.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué propiedad alinea los elementos flexibles a lo largo del eje cruzado cuando hay varias líneas?",
+      "opciones": [
+        { "texto": "align-content", "esCorrecta": true },
+        { "texto": "justify-content", "esCorrecta": false },
+        { "texto": "align-items", "esCorrecta": false },
+        { "texto": "flex-start", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué propiedad de Flexbox define la dirección de los elementos flexibles dentro del contenedor?",
+      "opciones": [
+        { "texto": "flex-flow", "esCorrecta": false },
+        { "texto": "flex-wrap", "esCorrecta": false },
+        { "texto": "align-content", "esCorrecta": false },
+        { "texto": "flex-direction", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Cuál de las siguientes afirmaciones es verdadera respecto a flex-basis?",
+      "opciones": [
+        { "texto": "Define el tamaño inicial de un elemento flex antes de la distribución del espacio restante.", "esCorrecta": true },
+        { "texto": "Es lo mismo que la propiedad width.", "esCorrecta": false },
+        { "texto": "No tiene efecto cuando flex-grow es 1.", "esCorrecta": false },
+        { "texto": "Define la capacidad de un elemento flex para crecer.", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "La propiedad justify-content se utiliza para alinear elementos a lo largo del eje principal.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    }
+  ]
+},
+
+
+
+
+
+{
+  "idCuestionario": 1754541542342,
+  "nombre": "Cuestionario Material de la Clase 8",
+  "fechaCreacion": "2025-08-03T18:39:02.342Z",
+  "preguntas": [
+    {
+      "tipo": "multiple",
+      "texto": "Un algoritmo es un conjunto ordenado y finito de operaciones que permite hallar la solución de un problema.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Cuáles de los siguientes NO es un ejemplo de lenguaje de marcado?",
+      "opciones": [
+        { "texto": "XML", "esCorrecta": false },
+        { "texto": "Java", "esCorrecta": true },
+        { "texto": "HTML", "esCorrecta": false },
+        { "texto": "C#", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "JavaScript fue creado en 1995 y es un lenguaje de programación compilado.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "desarrollar",
+      "texto": "¿En qué año fue creado JavaScript?",
+      "respuesta": "1995",
+      "opciones": []
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los algoritmos son ambiguos y no necesitan tener un orden específico para resolver un problema.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué característica NO corresponde a los algoritmos?",
+      "opciones": [
+        { "texto": "Infinitos", "esCorrecta": true },
+        { "texto": "Precisos", "esCorrecta": false },
+        { "texto": "Ordenados", "esCorrecta": false },
+        { "texto": "Concretos", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Cuáles de estos elementos puede formar parte de un algoritmo?",
+      "opciones": [
+        { "texto": "Condicional FOR", "esCorrecta": true },
+        { "texto": "Funciones", "esCorrecta": true },
+        { "texto": "Condicional IF", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Los lenguajes de programación no se pueden clasificar en diferentes grupos según su uso y características.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": false },
+        { "texto": "Falso", "esCorrecta": true }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "Un lenguaje de programación es un conjunto de reglas que le indica a un sistema informático qué hacer y cómo hacerlo.",
+      "opciones": [
+        { "texto": "Verdadero", "esCorrecta": true },
+        { "texto": "Falso", "esCorrecta": false }
+      ]
+    },
+    {
+      "tipo": "multiple",
+      "texto": "¿Qué es un lenguaje de programación?",
+      "opciones": [
+        { "texto": "Un manual de instrucciones.", "esCorrecta": false },
+        { "texto": "Un conjunto de reglas para sistemas informáticos.", "esCorrecta": true },
+        { "texto": "Una receta de cocina.", "esCorrecta": false },
+        { "texto": "Un dispositivo electrónico.", "esCorrecta": false }
+      ]
+    },
+
+    {
+    "idCuestionario": 1754541542343,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542343,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542344,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542345,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542346,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542347,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542348,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542349,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542350,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542351,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542352,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542353,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542354,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    },
+
+    {
+    "idCuestionario": 1754541542355,
+    "nombre": "Cuestionario X",
+    "fechaCreacion": "2025-08-03T18:39:02.342Z",
+    "preguntas": [
+    ]
+    }
+
+
+  ]
+}        
+]
