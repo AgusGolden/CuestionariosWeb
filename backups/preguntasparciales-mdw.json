@@ -1,0 +1,1460 @@
+[
+  {
+    "idCuestionario": 1759200000009,
+    "nombre": "Preguntas 1er Parcial",
+    "fechaCreacion": "2025-10-10T09:00:00.000Z",
+    "preguntas": [
+      {
+        "tipo": "multiple",
+        "texto": "En la seguridad informática se busca defender:",
+        "opciones": [
+          {
+            "texto": "Usuarios",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Equipos que la soportan",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Metodologías de trabajo",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Información",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Se recomienda no construir prototipos para realizar el análisis de un sistema.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Durante la etapa de instalación y despliegue debemos planificar:",
+        "opciones": [
+          {
+            "texto": "Sistemas operativos y bibliotecas.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Frameworks de desarrollo recomendados para implementar la solución",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Definición de la arquitectura del sistema.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Redes de interconexión entre los equipos y de acceso a sistemas externos.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Equipos necesarios y su configuración física.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La arquitectura de microservicios es la mejor opción para cualquier tipo de sistemas.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Minimal API no es ni más ni menos que una API con una cantidad de código muy reducida respecto a la versión habitual sacando los Controllers de la ecuación.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Para que un proyecto sea viable:",
+        "opciones": [
+          {
+            "texto": "Debe ser rentable, sostenible económicamente.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Es posible ser realizado, sin importar el retorno financiero del mismo.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "El proyecto debe brindar un buen desempeño financiero.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Determina qué condiciones son necesarias para que un proyecto se deba desarrollar y si estamos ante un proyecto bueno o malo.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "REST",
+        "opciones": [
+          {
+            "texto": "Crea una petición HTTP que contiene toda la información necesaria, es decir, un REQUEST a un servidor tiene toda la información necesaria y solo espera una RESPONSE, o sea, una respuesta en concreto.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Se apoya bajo el protocolo SOAP",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Es una interfaz para conectar varios sistemas basados en el protocolo HTTP",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Devuelve información en formatos específicos como XML y JSON",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En el patrón broker tenemos un sistema con componentes desacoplados que pueden interactuar entre sí mediante invocaciones de servicios remotos. ¿Cuál de las siguientes afirmaciones es correcta?",
+        "opciones": [
+          {
+            "texto": "Los componentes están fuertemente acoplados y no pueden interactuar mediante invocaciones de servicios remotos.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "No existe un componente de intermediario en el patrón broker.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "El patrón broker no permite la interacción entre componentes.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Un componente de intermediario es responsable de la coordinación de la comunicación entre los componentes.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Los componentes pueden interactuar entre sí mediante invocaciones de servicios remotos.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En el diseño de un sistema:",
+        "opciones": [
+          {
+            "texto": "Se generan requerimientos no funcionales.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Incluye la arquitectura del sitio o aplicación.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Incluye módulos, componentes, tipo de interfaz, diseño y usabilidad.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "No se nos puede pasar ningún requerimiento funcional y no funcional al momento de diseñar un sistema.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Se generan requerimientos funcionales.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Cuando hablamos de Factibilidad de un sistema es lo mismo que la Viabilidad del mismo.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En una arquitectura cliente-servidor:",
+        "opciones": [
+          {
+            "texto": "Solo un cliente puede consumir de un servidor a la vez.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Los clientes no pueden consumir servicios del servidor.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "El servidor puede consumir servicios de los clientes.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Múltiples clientes pueden consumir de un mismo servidor simultáneamente.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Puedo tener N clientes consumiendo de un mismo servidor.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En Arquitecturas sin servidor, las pruebas son mucho más exigentes.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El análisis de sistemas:",
+        "opciones": [
+          {
+            "texto": "Caracteriza la estructura y el funcionamiento",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Determina el lenguaje de programación que vamos a utilizar",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Establece los límites del sistema",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Determina objetivos del sistema",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Determina la arquitectura de software",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Cuáles de las siguientes afirmaciones corresponden al diseño físico:",
+        "opciones": [
+          {
+            "texto": "Hace uso de diagramas llamados modelos entidad-relación.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Disposición concreta de los componentes del sistema, como hardware y redes.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Una representación de los flujos de todo el sistema.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Utilizar un micro ORM implica que el desarrollador es el que deba escribir el SQL.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En Arquitecturas sin servidor, como la arquitectura no se encuentra alojada en un servidor de origen específico, el código de puede ejecutar en cualquier sitio.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Una desventaja que nos trae microservicios es el alto consumo de memoria, al tener cada microservicio sus propios recursos y bases de datos, consumen más memoria y CPU.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La arquitectura hexagonal promueve la separación de asuntos mediante la encapsulación de la lógica en diferentes capas de la aplicación, esto nos va a permitir:",
+        "opciones": [
+          {
+            "texto": "Aislamiento de mayor nivel.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Testabilidad.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Separar el dominio del núcleo de nuestra arquitectura.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Control sobre el código de negocio específico.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Las metodología ágiles requieren de equipos polifuncionales y auto-organizados.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Podemos determinar los siguientes componentes en RabbitMQ:",
+        "opciones": [
+          {
+            "texto": "Tamaño en disco del host",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Productor",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Consumidor",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Bus de mensajes",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Exchange",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El Wireframe consiste en:",
+        "opciones": [
+          {
+            "texto": "Son el puente entre la arquitectura de información y el diseño",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Se trata de esquemas que muestran estructuras simples con el objetivo de visualizar los contenidos en una pantalla y establecer una jerarquía.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Solamente pueden ser realizados en aplicaciones de navegador web, no es posible hacer un wireframe para aplicaciones de dispositivos móviles.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Incluye colores, tipografías e imágenes.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Es una guía grafica para representar la estructura visual de nuestro sistema.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Una aplicación nativa es una aplicación web creada con HTML,CSS y JavaScript que se ejecuta en lo que se denomina como \"envoltorio nativo\".",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En la arquitectura cliente servidor:",
+        "opciones": [
+          {
+            "texto": "El cliente se conecta con el servidor únicamente a través de internet.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "El servidor proporciona recursos a cualquier dispositivo que se conecte a través de la red.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "El cliente depende de los servidores para obtener recursos.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Entendemos por \"Agil\"",
+        "opciones": [
+          {
+            "texto": "Centrado en el desarrollo iterativo.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Se aplica únicamente en el área de gestión de proyectos.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Mostrar la adaptabilidad y la respuesta al cambio.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "La capacidad de mantener las cosas en movimiento con facilidad y sin obstáculos.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Una vez creada una guía de estilos para el branding de una empresa, la guía no debe modificarse nunca",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Indicar en qué fase se debe determinar la arquitectura más robusta posible para nuestro sistema:",
+        "opciones": [
+          {
+            "texto": "Análisis",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Implementación",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Pruebas",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Diseño",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En el patrón layered podemos encontrar diferentes capas, entre ellas pueden ser:",
+        "opciones": [
+          {
+            "texto": "Capa de lógica de negocios",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Capa de presentación",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Capa de acceso a datos",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Capa de aplicación (también conocida como capa de servicios)",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Docker me permite automatizar el proceso de implementación de un sistema.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Algunos verbos HTTP pueden ser:",
+        "opciones": [
+          {
+            "texto": "PUT",
+            "esCorrecta": true
+          },
+          {
+            "texto": "UPDATE",
+            "esCorrecta": false
+          },
+          {
+            "texto": "DELETE",
+            "esCorrecta": true
+          },
+          {
+            "texto": "INSERT",
+            "esCorrecta": false
+          },
+          {
+            "texto": "PATCH",
+            "esCorrecta": true
+          },
+          {
+            "texto": "POST",
+            "esCorrecta": true
+          },
+          {
+            "texto": "GET",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En la arquitectura hexagonal los puertos y adaptadores son reemplazables.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En Dapper, todas las acciones (métodos) tienen su versión normal y su versión con genéricos <T>",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El protocolo TCP",
+        "opciones": [
+          {
+            "texto": "Forma parte de la capa 3 de host a host.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Trabaja sin conexión.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Mantiene la conexión.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Proporciona una comunicación confiable y sin errores entre sistemas finales.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Está orientado a la conexión.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Durante el uso y mantenimiento de un sistema vamos a tener distintos escenarios:",
+        "opciones": [
+          {
+            "texto": "Van a agregarse nuevas funcionalidades a nuestro sistema para perfeccionar el mismo.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Eliminar defectos que se detectaron durante la vida productiva del sistema, llamados incidentes de producción.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Van a ir surgiendo nuevas necesidades en nuestro negocio, por lo tanto vamos a tener que adaptar el sistema a las mismas.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Si desarrollamos un sistema robusto nos garantizamos que el mantenimiento va a ser mínimo o inexistente y evitamos todo tipo de propuestas de mejoras que puedan surgir.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Una guía de estilos se sirve de elementos gráficos y reglas que definirán la personalidad de la marca, la paleta de colores, la tipografía, la iconografía, imágenes, espaciados y el carácter general.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En una arquitectura de microservicios:",
+        "opciones": [
+          {
+            "texto": "El software está compuesto por pequeños servicios independientes que se comunican a través de API bien definidas.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "El software se estructura de forma que todos los aspectos funcionales quedan acoplados y sujetos en un mismo programa.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Las arquitecturas de microservicios hacen que las aplicaciones sean más fáciles de escalar y más rápidas de desarrollar.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Aumentan el riesgo de la disponibilidad de la aplicación porque tenemos muchos procesos dependientes y estrechamente vinculados aumentan el impacto del error de un proceso.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El patrón de registro activo es un patrón de diseño. ¿Cuál de las siguientes afirmaciones es correcta?",
+        "opciones": [
+          {
+            "texto": "El patrón de registro activo no es un patrón de diseño.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "El patrón de registro activo es un patrón de diseño.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "El patrón de registro activo es un patrón de diseño que se utiliza para desacoplar componentes de software.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "El patrón de registro activo es un patrón de diseño que se utiliza para gestionar el estado de los objetos.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "El patrón de registro activo no tiene ninguna relación con el diseño de software.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Indicar qué conceptos son verdaderos respecto a la planificación de un proyecto:",
+        "opciones": [
+          {
+            "texto": "Empezamos a escribir código fuente.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Se estima equipo necesario para llevar a cabo el proyecto.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Se empiezan a determinar los presupuestos.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Empezamos a desarrollar una arquitectura para el diseño del sistema.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Se realiza un estimado de tiempos de entrega, considerando la incertidumbre que esto genera.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "No es necesario tener conocimientos sólidos en gestión de proyectos para planificar",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Dependiendo los objetivos del análisis nos podemos encontrar:",
+        "opciones": [
+          {
+            "texto": "Análisis de un sistema ya existente para comprender, mejorar, ajustar y/o predecir su comportamiento.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Análisis como paso previo al diseño de un nuevo sistema-producto.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Análisis para eliminar completamente el sistema existente sin reemplazo.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Análisis para cambiar el sistema sin ningún tipo de evaluación previa.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "No realizar ningún análisis.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El recorrido cognitivo consiste en:",
+        "opciones": [
+          {
+            "texto": "El experto realiza una inspección minuciosa a la interfaz para comprobar que cumple en todo momento y globalmente todos los puntos definidos en el estándar establecido.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Evaluar el diseño de interfaz de un sistema en cuanto a la facilidad de aprendizaje.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Intervienen los usuarios finales.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La mejor manera de hacer que todas las personas implicadas en el proceso de creación de una web estén en sintonía es crear una guía de estilo.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idCuestionario": 1759200000010,
+    "nombre": "Preguntas 2do Parcial",
+    "fechaCreacion": "2025-10-10T10:00:00.000Z",
+    "preguntas": [
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuáles son las características del patrón Singleton?",
+        "opciones": [
+          {
+            "texto": "Proporciona acceso local a una única instancia.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Permite múltiples instancias de una misma clase.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Controla la creación de instancias.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Evita que otras clases hereden su funcionalidad.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El patrón Composite",
+        "opciones": [
+          {
+            "texto": "Nos sirve para construir estructuras complejas partiendo de otras estructuras mucho más simples.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "El patrón de diseño composite nos sirve para crear objetos que solo tengan una única instancia en el ciclo de vida de nuestro sistema.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Leaf puede tener mas de un Component.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Tanto el Leaf como el Composite son de tipo Component.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En Testing, los casos de prueba:",
+        "opciones": [
+          {
+            "texto": "En los casos de prueba abstractos no se definen los juegos de datos específicos, sino que esto queda a criterio del tester que está ejecutando qué datos usar.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Se ejecutan constantemente hasta que el sistema arroje resultados esperados.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Un caso de prueba debe cubrir por completo un caso de uso.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En MVC, el controlador:",
+        "opciones": [
+          {
+            "texto": "Puede capturar un evento que desencadene la pulsación de un botón de guardado de información de un formulario.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Tiene la capacidad de capturar las acciones sobre la Vista.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Transforma los datos para que el modelo y la vista se entiendan.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Posee código de frontend.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "El controlador se encuentra observando al modelo.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En Testing, los incidentes:",
+        "opciones": [
+          {
+            "texto": "Son buscados todo el tiempo por los testers.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Las partes interesadas no deben estar al tanto de que un desarrollador comenzó a tomar el caso.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Se asigna a un desarrollador.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El patrón Observer",
+        "opciones": [
+          {
+            "texto": "Tenemos un sujeto observable y varios observadores quienes se suscriben al observable. El sujeto observable se va a encargar de notificar a todos sus observadores suscriptos ante un determinado cambio, evitando que todos los observadores estén constantemente consultando al mismo.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Es un patrón de diseño de comportamiento.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Es un patrón de arquitectura.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Puede ser utilizado cuando tenemos que desarrollar objetos complejos con estructura de tipo árbol.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Permite definir un mecanismo de suscripción para notificar a varios objetos sobre cualquier evento que le suceda al objeto que están observando.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Puede ser utilizado cuando hay objetos que dependen de otro, necesitando ser notificados en caso de que se produzca algún cambio en él.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La prueba de estrés tiene como objetivo sobrecargar el sistema más de lo esperado.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuándo es recomendable utilizar el patrón Façade?",
+        "opciones": [
+          {
+            "texto": "Cuando necesitas una interfaz limitada pero directa a un subsistema complejo.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Cuando un subsistema se vuelve más flexible y fácil de reutilizar en varios contextos.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Cuando deseas reducir el acoplamiento entre varios subsistemas exigiéndoles que se comuniquen únicamente mediante fachadas.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Cuando necesitas aumentar la cantidad de código de configuración que exige un cliente.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Cuando quieres estructurar un subsistema en capas.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Utilizar el patrón Observer cuando:",
+        "opciones": [
+          {
+            "texto": "Tiene la característica principal de delegar a otra clase la responsabilidad de crear un objeto complejo",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Algunos objetos de tu aplicación deban observar a otros, pero sólo durante un tiempo limitado o en casos específicos.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "No importa que la notificación de los suscriptores deba ser en orden secuencial.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "La lista de suscripción es estática, por lo que los suscriptores no pueden unirse o abandonar la lista cuando lo deseen.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Los cambios en el estado de un objeto puedan necesitar cambiar otros objetos y el grupo de objetos sea desconocido de antemano o cambie dinámicamente.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En MVC, la vista:",
+        "opciones": [
+          {
+            "texto": "Podemos encontrar por ejemplo, código HTML para presentar.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Podemos persistir información en la base de datos de manera directa.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Está compuesto por pantallas, páginas o todo tipo de manera de representar al usuario la información e interactuar con él.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Podemos acceder a la base de datos para obtener información.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Es una representación del estado del Modelo en un momento concreto y en el contexto de una acción determinada.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El patrón Template Method",
+        "opciones": [
+          {
+            "texto": "Sirve para implementar las partes variables de una clase.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Define el esqueleto de un algoritmo en la superclase.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Las subclases pueden sobrescribir los pasos del algoritmo sin cambiar su estructura.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El patrón API Gateway",
+        "opciones": [
+          {
+            "texto": "Soluciona cómo acceden los clientes de una aplicación basada en microservicios a los servicios individuales.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Puedo tener una app de navegador y de celulares consumiendo distintas APIS adaptadas a las necesidades de cada uno.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Implementa una puerta de enlace API que sea el punto de entrada único para todos los clientes.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "El rendimiento de la red es similar para diferentes tipos de clientes.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Las APIS pueden llegar a ser consumidas por sistemas externos, pero todos tienen que estar desarrollados en el mismo lenguaje de programación.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Se utiliza para el desarrollo de REST APIS",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "La calidad de un software consiste en lograr un cliente satisfecho a partir de un producto lo más adecuado al cliente y al usuario.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En las pruebas de regresión se limita a suministrarle datos de entrada y estudiar la salida sin preocuparse de lo que pueda estar haciendo el módulo por dentro.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Un Tester:",
+        "opciones": [
+          {
+            "texto": "No nos va a asegurar que un software desarrollado sea consistente visualmente.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Valida la calidad del software, verificando si hay errores o problemas.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Es un investigador.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El Testing:",
+        "opciones": [
+          {
+            "texto": "Se puede lograr un software perfecto.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Me permite saber cuándo liberar un producto.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Brinda información acerca de la calidad del software a todos los involucrados en la construcción.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "ZeroMQ:",
+        "opciones": [
+          {
+            "texto": "Orientada a mensajes.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Es obligatorio tener un servidor con clientes conectados recibiendo mensajes, sino deja de funcionar.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Soporta solo TCP como medio de transporte.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Pensada para sistemas distribuidos y/o concurrentes",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Es un broker de mensajería.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Soporta múltiples medios de transporte",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En los casos de prueba concretos, en el caso de que el tester tenga otro conjunto de datos que brinden otra posibilidad, debe considerarlas en el mismo caso de prueba, evitando que haya más de uno para la misma funcionalidad.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Debido a que ZeroMQ está orientado a mensajes, los suscriptores reciben transacciones y bloques todo a la vez y necesitan implementar algún tipo de almacenamiento en búfer o reensamblaje como en RabbitMQ",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Los usuarios deberían testear los aspectos funcionales de un producto.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Qué problemas resuelve el patrón Decorator?",
+        "opciones": [
+          {
+            "texto": "Extender el comportamiento de objetos sin usar herencia.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Garantizar que solo exista una instancia de una clase.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Añadir funcionalidades a objetos en tiempo de ejecución.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Reducir la cantidad de código en una aplicación.",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El tester verifica que se cumpla todo lo que está especificado en el documento que explica cómo debería funcionar el software.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Aplicando el patrón Composite, si el código espera un objeto simple también puede recibir uno de tipo Composite.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En Testing, todo incidente reportado nos asegura que nuestro sistema tiene un bug.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En el patrón Template Method, los pasos no pueden ser abstractos y cuentan con una implementación por defecto.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "En Testing, la cobertura de pruebas:",
+        "opciones": [
+          {
+            "texto": "Realizar una buena cobertura de pruebas va a garantizar de manera proporcional una buena calidad en el sistema.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Mide la calidad de mi testing y determina cuándo el trabajo realizado fue suficiente.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Patrón DTO",
+        "opciones": [
+          {
+            "texto": "El DTO es un patrón para crear objetos de persistencia en la base de datos.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Si tenemos un sistema distribuido, en el modelo desarrollaremos DTOS para intercambiar información entre sistemas.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "La finalidad de un DTO es concentrar en una clase simple y fácil de entender la información de múltiples fuentes o tablas.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El patrón Adapter me va a permitir transformar la interfaz de un objeto Legacy con otro sistema donde su interfaz es incompatible.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "ZeroMQ es una librería.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "Los patrones de arquitectura no traen implícitamente una serie de convenciones que debemos asumir para que nuestro código sea limpio y mantenible.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El patrón Template Method es conocido como un patrón de diseño arquitectura.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "¿Cuáles son las ventajas de utilizar servicios en la nube en el desarrollo de aplicaciones?",
+        "opciones": [
+          {
+            "texto": "Seguridad garantizada",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Capacidad de compartir código",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Mayor capacidad de procesamiento",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Almacenamiento de datos pesados.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El patrón de capa de anticorrupción (ACL):",
+        "opciones": [
+          {
+            "texto": "Es una capa mas en nuestro sistema que aísla un sistema antiguo con otro nuevo.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Para evitar daños debe tener toda la lógica para adaptarse a ambos sistemas.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Implementa una capa de fachada o adaptador entre diferentes subsistemas que no comparten la misma semántica.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Acopla el diseño de una aplicación con sus subsistemas externos.",
+            "esCorrecta": false
+          },
+          {
+            "texto": "Se puede usar en procesos de migraciones graduales.",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Implementando una capa ACL es posible que tengamos que descomponer la funcionalidad en varios servicios con diferentes tecnologías o lenguajes.",
+            "esCorrecta": true
+          }
+        ]
+      },
+      {
+        "tipo": "multiple",
+        "texto": "El patrón Template Method está diseñado para marcos, donde cada uno implementa las partes invariables de la arquitectura de un ámbito, dejando \"placeholders\" para personalizar las opciones.",
+        "opciones": [
+          {
+            "texto": "Verdadero",
+            "esCorrecta": true
+          },
+          {
+            "texto": "Falso",
+            "esCorrecta": false
+          }
+        ]
+      }
+    ]
+  }
+]
